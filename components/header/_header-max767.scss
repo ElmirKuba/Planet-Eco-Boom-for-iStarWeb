@@ -1,0 +1,393 @@
+@media (max-width: 767px) {
+  .header {
+    width: 100%;
+  }
+
+  .header-top {
+    width: 100%;
+    min-height: 29.33px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+      margin-left: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__right {
+      margin-right: 15px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .header-top {
+      &__left {
+        width: 65.625%;
+      }
+
+      &__right {
+        width: 18.75%;
+      }
+    }
+
+    .header-logo {
+      width: 85.71428571429%;
+
+      &__image-mobile {
+        display: block;
+      }
+
+      &__image-desktop {
+        display: none;
+      }
+    }
+
+    .city-select {
+      width: 9.5238095238099%;
+
+      &__click {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+      }
+
+      &__icon {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+      }
+
+      &__name {
+        display: none;
+      }
+    }
+
+    .contact-info {
+      &__phone-number {
+        display: inline-block;
+      }
+
+      &__text-phone {
+        display: none;
+      }
+
+      &__text-mail {
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: 400px) {
+    .header-top {
+      &__left {
+        width: 75%;
+      }
+
+      &__right {
+        width: 14%;
+      }
+    }
+
+    .header-logo {
+      width: 55%;
+
+      &__image-mobile {
+        display: block;
+      }
+
+      &__image-desktop {
+        display: none;
+      }
+    }
+
+    .city-select {
+      width: 35%;
+
+      &__click {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+
+        letter-spacing: -0.06em;
+
+        color: #212121;
+      }
+
+      &__icon {
+        width: 30%;
+        display: inline-block;
+      }
+
+      &__name {
+        width: 70%;
+        display: inline-block;
+      }
+    }
+
+    .contact-info {
+      &__phone-number {
+        display: inline-block;
+      }
+
+      &__text-phone {
+        display: none;
+      }
+
+      &__text-mail {
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: 490px) {
+    .header-top {
+      &__left {
+        width: 63%;
+      }
+
+      &__right {
+        width: 30%;
+      }
+    }
+
+    .header-logo {
+      width: 65%;
+
+      &__image-mobile {
+        display: block;
+      }
+
+      &__image-desktop {
+        display: none;
+      }
+    }
+
+    .city-select {
+      width: 30%;
+
+      &__icon {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+      }
+    }
+
+    .contact-info {
+      width: 100%;
+
+      &__phone-number {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &__text-phone {
+        margin-top: 3px;
+
+        display: inline-block;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+
+        letter-spacing: -0.06em;
+
+        color: #212121;
+      }
+    }
+  }
+
+  @media (min-width: 590px) {
+    .header-top {
+      &__left {
+        width: 295px;
+
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &__right {
+        width: 260px;
+      }
+    }
+
+    .header-logo {
+      width: 180px;
+
+      &__image-mobile {
+        display: block;
+      }
+
+      &__image-desktop {
+        display: none;
+      }
+    }
+
+    .city-select {
+      width: 35%;
+
+      &__icon {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+      }
+    }
+
+    .contact-info {
+      width: 100%;
+
+      &__phone-number {
+        display: flex;
+        justify-content: space-between;
+        width: 48%;
+      }
+
+      &__email-support {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 48%;
+      }
+
+      &__text-phone {
+        margin-top: 3px;
+
+        display: inline-block;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+
+        letter-spacing: -0.06em;
+
+        color: #212121;
+      }
+
+      &__icon-mail {
+        display: inline-block;
+      }
+
+      &__text-mail {
+        display: inline-block;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+
+        letter-spacing: -0.06em;
+
+        color: #212121;
+      }
+    }
+  }
+
+  .header-logo {
+    height: 29.33px;
+
+    &__image-mobile {
+      display: block;
+    }
+
+    &__image-desktop {
+      display: none;
+    }
+  }
+
+  .city-select {
+    margin-top: 4px;
+    min-height: 20px;
+
+    &__icon {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+    }
+  }
+
+  .searh-form {
+    display: none;
+  }
+
+  .contact-info {
+    margin-top: 4.33px;
+    width: 100%;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-navigate {
+    margin-top: 10px;
+    height: 73px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+
+    &__wrapper {
+      height: 73px;
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      display: flex;
+      align-items: center;
+
+      &::-webkit-scrollbar {
+        height: 0;
+        opacity: 0;
+      }
+
+      scrollbar-width: none;
+    }
+
+    ul {
+      height: 39px;
+      display: flex;
+      width: fit-content;
+      margin-left: 15px;
+      margin-right: 110px;
+
+      li {
+        list-style-type: none;
+        margin-right: 20px;
+        min-width: fit-content;
+
+        a {
+          height: 39px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          text-decoration: none;
+          color: #212121;
+
+          &:hover {
+            color: #27ae60;
+          }
+
+          img {
+            width: 20px;
+            height: 20px;
+          }
+
+          span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+
+            text-align: center;
+            letter-spacing: -0.06em;
+          }
+        }
+      }
+    }
+  }
+}

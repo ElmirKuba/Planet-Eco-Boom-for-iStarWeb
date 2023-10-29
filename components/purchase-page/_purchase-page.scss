@@ -1,0 +1,105 @@
+.purchase-page {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 767px) {
+    width: 90%;
+  }
+
+  .bread-crumbs {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #bdbdbd;
+
+    @media (max-width: 767px) {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #bdbdbd;
+    }
+
+    span {
+      display: inline-block;
+    }
+
+    &__pointer-separator {
+      margin-left: 7px;
+      margin-right: 5px;
+      margin-bottom: 3.5px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+
+      background-color: #bdbdbd;
+
+      @media (max-width: 767px) {
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .component-making-order {
+      margin-top: 20px;
+    }
+
+    .component-product-also-order {
+      margin-top: 60px;
+    }
+
+    .component-addit-recommends {
+      margin-top: 60px;
+    }
+  }
+
+  @media (min-width: 767px) {
+    .component-making-order {
+      margin-top: 30px;
+    }
+
+    .component-product-also-order {
+      margin-top: 84px;
+    }
+
+    .component-addit-recommends {
+      margin-top: 104px;
+    }
+  }
+
+  @import "./making-order/_making-order"; /* оформление заказа */
+  @import "./product-also-order/_product-also-order"; /* С этим товаром так-же заказывают */
+
+  &__title {
+    @media (max-width: 767px) {
+      margin-top: 60px;
+      margin-bottom: 20px;
+    }
+
+    @media (min-width: 767px) {
+      margin-top: 120px;
+      margin-bottom: 20px;
+    }
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+
+    letter-spacing: -0.03em;
+
+    color: #212121;
+  }
+
+  @import "./../products/product-page-description/_product-page-description"; /* текст на странице под формой */
+
+  @import "./addit-recommends/_addit-recommends"; /* еще может подойти */
+}

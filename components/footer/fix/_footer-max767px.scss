@@ -1,0 +1,1403 @@
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    width: 670px !important;
+    margin: 0 auto;
+    &__list1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__list1-item {
+      margin-right: 32px !important;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+    }
+
+    &__list1-item-img {
+      margin-right: 10px;
+    }
+
+    &__list1-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list1-fix-margin {
+      margin-right: 60px;
+    }
+
+    &__list2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px !important;
+      margin-left: 0px !important;
+    }
+
+    &__list2-item {
+      margin-top: -10px;
+      margin-right: 61px;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+    }
+
+    &__list2-item-img {
+      margin-right: 10px;
+    }
+
+    &__list2-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list2-fix-margin {
+      margin-right: 65px;
+    }
+  }
+  .footer-box {
+    padding-left: 30px;
+    padding-top: 50px;
+    max-height: 670px !important;
+    width: 670px !important;
+  }
+  .footer-uprow {
+    min-height: 65px;
+    margin-left: 30px !important;
+
+    height: 116px;
+    &__logo {
+      width: 220px;
+      height: 50px;
+      margin-left: -30px;
+      margin-bottom: 0px !important;
+      margin-top: 10px !important;
+      margin-right: 30px !important;
+    }
+
+    &__telephone {
+      margin-left: 0px !important;
+      font-size: 18px !important;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      font-size: 22px !important;
+      margin-right: 20px !important;
+      padding-top: 23px !important;
+    }
+
+    &__mail {
+      margin-left: 0px !important;
+      font-size: 22px !important;
+      padding-top: 23px !important;
+    }
+
+    &__logo2 {
+      width: 124px !important;
+      height: 37px !important;
+    }
+  }
+  .footer-downrow {
+    flex-direction: column;
+    margin-top: -40px !important;
+  }
+  .footer-box1 {
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__info-text1 {
+      max-width: 260px;
+      max-height: 40px;
+      margin-top: 30px;
+      margin-bottom: 45px !important;
+    }
+
+    &__info-text2 {
+      max-width: 260px;
+      max-height: 40px;
+      margin-bottom: 60px !important;
+    }
+  }
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    max-height: 200px !important;
+    &__list {
+      margin-top: 30px !important;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -255px;
+      left: 300px;
+    }
+
+    &__moreinfo {
+      flex-direction: row;
+      max-width: 500px !important;
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
+      position: relative;
+      left: 200px;
+      top: -250px;
+    }
+
+    &__politics {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 15px;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 200px !important;
+    }
+  }
+}
+
+@media (max-width: 675px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    width: 570px !important;
+    margin: 0 auto;
+    &__list1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__list1-item {
+      margin-right: 32px !important;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+    }
+
+    &__list1-item-img {
+      margin-right: 10px;
+    }
+
+    &__list1-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list1-fix-margin {
+      margin-right: 60px;
+    }
+
+    &__list2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px !important;
+      margin-left: 0px !important;
+    }
+
+    &__list2-item {
+      margin-top: -10px;
+      margin-right: 61px;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+    }
+
+    &__list2-item-img {
+      margin-right: 10px;
+    }
+
+    &__list2-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list2-fix-margin {
+      margin-right: 65px;
+    }
+  }
+  .footer-box {
+    padding-left: 30px;
+    padding-top: 50px;
+    max-height: 670px !important;
+    width: 570px !important;
+  }
+  .footer-uprow {
+    min-height: 65px;
+    margin-left: 30px !important;
+
+    height: 116px;
+    &__logo {
+      width: 170px;
+      height: 50px;
+      margin-left: -40px;
+      margin-bottom: 0px !important;
+      margin-top: 10px !important;
+      margin-right: 30px !important;
+    }
+
+    &__telephone {
+      margin-left: 0px !important;
+      font-size: 18px !important;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      font-size: 22px !important;
+      margin-right: 20px !important;
+      padding-top: 23px !important;
+    }
+
+    &__mail {
+      margin-left: 0px !important;
+      font-size: 22px !important;
+      padding-top: 23px !important;
+    }
+
+    &__logo2 {
+      width: 124px !important;
+      height: 37px !important;
+    }
+  }
+  .footer-downrow {
+    flex-direction: column;
+    margin-top: -40px !important;
+  }
+  .footer-box1 {
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__info-text1 {
+      max-width: 260px;
+      max-height: 40px;
+      margin-top: 30px;
+      margin-bottom: 45px !important;
+    }
+
+    &__info-text2 {
+      max-width: 260px;
+      max-height: 40px;
+      margin-bottom: 60px !important;
+    }
+  }
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    max-height: 200px !important;
+    &__list {
+      margin-top: 30px !important;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -255px;
+      left: 250px;
+    }
+
+    &__moreinfo {
+      flex-direction: row;
+      max-width: 500px !important;
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
+      position: relative;
+      left: 200px;
+      top: -250px;
+    }
+
+    &__politics {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: -5px !important;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 200px !important;
+    }
+  }
+}
+
+@media (max-width: 593px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    width: 490px !important;
+    margin: 0 auto;
+    &__list1 {
+      display: flex;
+      flex-direction: column;
+      width: 200px !important;
+    }
+
+    &__list1-item {
+      margin-right: 32px !important;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+    }
+
+    &__list1-item-img {
+      margin-right: 10px;
+    }
+
+    &__list1-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list1-fix-margin {
+      margin-right: 60px;
+    }
+
+    &__list2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px !important;
+      margin-left: 0px !important;
+      width: 200px !important;
+    }
+
+    &__list2-item {
+      margin-top: -10px;
+      margin-right: 61px;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+    }
+
+    &__list2-item-img {
+      margin-right: 10px;
+    }
+
+    &__list2-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list2-fix-margin {
+      margin-right: 65px;
+    }
+  }
+  .footer-box {
+    padding-left: 30px;
+    padding-top: 50px;
+    max-height: 670px !important;
+    width: 490px !important;
+  }
+  .footer-uprow {
+    min-height: 65px;
+    margin-left: 30px !important;
+
+    height: 116px;
+    &__logo {
+      width: 166px;
+      height: 50px;
+      margin-left: -50px;
+      margin-bottom: 0px !important;
+      margin-top: 10px !important;
+      margin-right: 10px !important;
+    }
+
+    &__telephone {
+      margin-left: 0px !important;
+      font-size: 18px !important;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      font-size: 20px !important;
+      margin-right: 10px !important;
+      padding-top: 23px !important;
+    }
+
+    &__mail {
+      margin-left: 0px !important;
+      font-size: 20px !important;
+      padding-top: 23px !important;
+    }
+
+    &__logo2 {
+      width: 124px !important;
+      height: 37px !important;
+    }
+  }
+  .footer-downrow {
+    flex-direction: column;
+    margin-top: -40px !important;
+  }
+  .footer-box1 {
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__info-text1 {
+      max-width: 260px;
+      max-height: 40px;
+      margin-top: 30px;
+      margin-bottom: 45px !important;
+    }
+
+    &__info-text2 {
+      max-width: 260px;
+      max-height: 40px;
+      margin-bottom: 60px !important;
+    }
+  }
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    max-height: 200px !important;
+    &__list {
+      margin-top: 30px !important;
+      display: flex;
+      flex-direction: column;
+      width: 200px !important;
+      position: relative;
+      top: -255px;
+      left: 230px;
+    }
+
+    &__moreinfo {
+      flex-direction: row;
+      max-width: 420px !important;
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
+      position: relative;
+      left: 200px;
+      top: -280px;
+    }
+
+    &__politics {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: -5px !important;
+      width: 195px !important;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 200px !important;
+    }
+  }
+}
+
+@media (max-width: 493px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    width: 426px !important;
+    margin: 0 auto;
+    &__list1 {
+      display: flex;
+      flex-direction: column;
+      width: 180px !important;
+    }
+
+    &__list1-item {
+      margin-right: 32px !important;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+    }
+
+    &__list1-item-img {
+      margin-right: 10px;
+    }
+
+    &__list1-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list1-fix-margin {
+      margin-right: 60px;
+    }
+
+    &__list2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px !important;
+      margin-left: 0px !important;
+      width: 180px !important;
+    }
+
+    &__list2-item {
+      margin-top: -10px;
+      margin-right: 61px;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+    }
+
+    &__list2-item-img {
+      margin-right: 10px;
+    }
+
+    &__list2-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list2-fix-margin {
+      margin-right: 65px;
+    }
+  }
+  .footer-box {
+    padding-left: 30px;
+    padding-top: 50px;
+    max-height: 550px !important;
+    width: 426px !important;
+  }
+  .footer-uprow {
+    min-height: 65px;
+    margin-left: 30px !important;
+    flex-direction: column !important;
+
+    height: 116px;
+    &__logo {
+      width: 166px;
+      height: 50px;
+      margin-left: -50px;
+      margin-bottom: 0px !important;
+      margin-top: 10px !important;
+      margin-right: 10px !important;
+    }
+
+    &__telephone {
+      margin-left: -45px !important;
+      font-size: 18px !important;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      font-size: 20px !important;
+      margin-right: 10px !important;
+      padding-top: 23px !important;
+    }
+
+    &__mail {
+      margin-left: -45px !important;
+      font-size: 20px !important;
+      padding-top: 23px !important;
+    }
+
+    &__logo2 {
+      width: 124px !important;
+      height: 37px !important;
+    }
+  }
+  .footer-downrow {
+    flex-direction: column;
+    margin-top: -40px !important;
+  }
+  .footer-box1 {
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      margin-top: 75px !important;
+      margin-left: -15px !important;
+    }
+
+    &__info-text1 {
+      max-width: 260px;
+      max-height: 40px;
+      margin-top: 30px;
+      margin-bottom: 45px !important;
+    }
+
+    &__info-text2 {
+      max-width: 260px;
+      max-height: 40px;
+      margin-bottom: 45px !important;
+    }
+  }
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    max-height: 100px !important;
+    &__list {
+      margin-top: 30px !important;
+      display: flex;
+      flex-direction: column;
+      width: 180px !important;
+      position: relative;
+      top: -400px;
+      left: 200px;
+    }
+
+    &__moreinfo {
+      flex-direction: row;
+      max-width: 380px !important;
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
+      max-height: 50px !important;
+      position: relative;
+      left: 180px;
+      top: -390px;
+    }
+
+    &__politics {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: -5px !important;
+      width: 195px !important;
+      margin-right: 0px !important;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 190px !important;
+      max-height: 40px !important;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    width: 390px !important;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    &__list1 {
+      display: flex;
+      flex-direction: column;
+      width: 300px !important;
+    }
+
+    &__list1-item {
+      margin-right: 32px !important;
+      margin-bottom: 20px;
+      justify-content: flex-start;
+    }
+
+    &__list1-item-img {
+      margin-right: 20px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list1-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list1-fix-margin {
+      margin-right: 60px;
+    }
+
+    &__list2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px !important;
+      width: 300px;
+      margin-left: 0px !important;
+    }
+
+    &__list2-item {
+      margin-top: -10px;
+      margin-right: 61px;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+      width: 300px;
+    }
+
+    &__list2-item-img {
+      margin-right: 20px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list2-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list2-fix-margin {
+      margin-right: 65px;
+    }
+  }
+  .footer-box {
+    padding-left: 30px;
+    padding-top: 50px;
+    min-height: 960px !important;
+    width: 390px !important;
+  }
+  .footer-uprow {
+    min-height: 280px !important;
+    margin-left: 30px !important;
+    height: 116px;
+    flex-direction: column !important;
+    width: 250px !important;
+
+    &__logo {
+      min-width: 235px !important;
+      min-height: 50px !important;
+      margin-left: -30px;
+      margin-bottom: 0px !important;
+    }
+
+    &__telephone {
+      font-size: 21px !important;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      margin-left: -27px !important;
+    }
+
+    &__mail {
+      font-size: 21px !important;
+      margin-left: -27px !important;
+      padding-top: 0px !important;
+    }
+    &__logo2 {
+      width: 124px !important;
+      height: 37px !important;
+      margin-top: -20px;
+    }
+  }
+  .footer-downrow {
+    flex-direction: column;
+    width: 300px !important;
+  }
+  .footer-box1 {
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      width: 300px !important;
+      margin-left: 0px;
+      position: relative;
+      top: 210px;
+      left: 20px;
+    }
+
+    &__info-text1 {
+      min-width: 260px !important;
+      max-width: 260px !important;
+      min-height: 100px !important;
+      margin-top: 30px;
+      margin-bottom: 0px !important;
+      font-size: 18px !important;
+    }
+
+    &__info-text2 {
+      min-width: 260px !important;
+      min-height: 100px !important;
+      margin-bottom: 0px !important;
+      font-size: 18px !important;
+      margin-top: -20px !important;
+    }
+  }
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px !important;
+    max-height: 300px !important;
+    &__list {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -350px;
+      left: -18px !important;
+    }
+
+    &__moreinfo {
+      flex-direction: column;
+      max-width: 250px !important;
+      margin-top: 180px !important;
+      margin-bottom: 30px !important;
+      position: relative;
+      left: 177px;
+      top: -260px;
+    }
+
+    &__politics {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 15px;
+      font-size: 18px !important;
+      min-width: 250px !important;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 250px !important;
+      font-size: 18px !important;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    width: 360px !important;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    &__list1 {
+      display: flex;
+      flex-direction: column;
+      width: 250px !important;
+    }
+
+    &__list1-item {
+      margin-right: 32px !important;
+      margin-bottom: 20px;
+      justify-content: flex-start;
+    }
+
+    &__list1-item-img {
+      margin-right: 20px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list1-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list1-fix-margin {
+      margin-right: 60px;
+    }
+
+    &__list2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px !important;
+      width: 250px;
+      margin-left: 0px !important;
+    }
+
+    &__list2-item {
+      margin-top: -10px;
+      margin-right: 61px;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+      width: 250px;
+    }
+
+    &__list2-item-img {
+      margin-right: 20px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list2-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list2-fix-margin {
+      margin-right: 65px;
+    }
+  }
+  .footer-box {
+    padding-left: 30px;
+    padding-top: 50px;
+    min-height: 980px !important;
+    width: 360px !important;
+  }
+  .footer-uprow {
+    min-height: 250px !important;
+    margin-left: 30px !important;
+    height: 116px;
+    flex-direction: column !important;
+    width: 250px !important;
+
+    &__logo {
+      min-width: 220px !important;
+      min-height: 30px !important;
+      margin-left: -30px;
+      margin-bottom: 0px !important;
+    }
+
+    &__telephone {
+      font-size: 18px !important;
+      margin-bottom: 15px;
+      margin-top: 0px;
+      margin-left: -27px !important;
+    }
+
+    &__mail {
+      font-size: 18px !important;
+      margin-left: -27px !important;
+      padding-top: 0px !important;
+    }
+    &__logo2 {
+      width: 124px !important;
+      height: 37px !important;
+      margin-top: -15px;
+    }
+  }
+  .footer-downrow {
+    flex-direction: column;
+    width: 250px !important;
+  }
+  .footer-box1 {
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      width: 250px !important;
+      margin-left: 0px;
+      position: relative;
+      top: 230px;
+      left: 16px;
+    }
+
+    &__info-text1 {
+      min-width: 250px !important;
+      max-width: 250px !important;
+      min-height: 100px !important;
+      margin-top: 30px;
+      margin-bottom: 0px !important;
+      font-size: 18px !important;
+    }
+
+    &__info-text2 {
+      min-width: 250px !important;
+      min-height: 100px !important;
+      margin-bottom: 0px !important;
+      font-size: 18px !important;
+      margin-top: -15px;
+    }
+  }
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px !important;
+    &__list {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -355px;
+      left: -18px !important;
+    }
+
+    &__moreinfo {
+      flex-direction: column;
+      max-width: 250px !important;
+      min-width: 250px !important;
+      margin-top: 180px !important;
+      margin-bottom: 30px !important;
+      position: relative;
+      left: 177px;
+      top: -265px;
+    }
+
+    &__politics {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+      font-size: 18px !important;
+      min-width: 250px !important;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 250px !important;
+      font-size: 18px !important;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    width: 340px !important;
+    margin: 0 auto;
+    &__list1 {
+      display: flex;
+      flex-direction: column;
+      width: 250px !important;
+    }
+
+    &__list1-item {
+      margin-right: 32px !important;
+      margin-bottom: 20px;
+      justify-content: flex-start;
+    }
+
+    &__list1-item-img {
+      margin-right: 20px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list1-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list1-fix-margin {
+      margin-right: 60px;
+    }
+
+    &__list2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px !important;
+      width: 250px;
+      margin-left: 0px !important;
+    }
+
+    &__list2-item {
+      margin-top: -10px;
+      margin-right: 61px;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+      width: 250px;
+    }
+
+    &__list2-item-img {
+      margin-right: 20px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list2-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list2-fix-margin {
+      margin-right: 65px;
+    }
+  }
+  .footer-box {
+    padding-left: 30px;
+    padding-top: 50px;
+    min-height: 980px !important;
+    width: 340px !important;
+  }
+  .footer-uprow {
+    min-height: 250px !important;
+    margin-left: 30px !important;
+    height: 116px;
+    flex-direction: column !important;
+    width: 250px !important;
+
+    &__logo {
+      min-width: 220px !important;
+      min-height: 30px !important;
+      margin-left: -30px;
+      margin-bottom: 0px !important;
+    }
+
+    &__telephone {
+      font-size: 18px !important;
+      margin-bottom: 15px;
+      margin-top: 0px;
+      margin-left: -27px !important;
+    }
+
+    &__mail {
+      font-size: 18px !important;
+      margin-left: -27px !important;
+      padding-top: 0px !important;
+    }
+    &__logo2 {
+      width: 124px !important;
+      height: 37px !important;
+      margin-top: -15px;
+    }
+  }
+  .footer-downrow {
+    flex-direction: column;
+    width: 250px !important;
+  }
+  .footer-box1 {
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      width: 250px !important;
+      margin-left: 0px;
+      position: relative;
+      top: 230px;
+      left: 16px;
+    }
+
+    &__info-text1 {
+      min-width: 250px !important;
+      max-width: 250px !important;
+      min-height: 100px !important;
+      margin-top: 30px;
+      margin-bottom: 0px !important;
+      font-size: 18px !important;
+    }
+
+    &__info-text2 {
+      min-width: 250px !important;
+      min-height: 100px !important;
+      margin-bottom: 0px !important;
+      font-size: 18px !important;
+      margin-top: -15px;
+    }
+  }
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px !important;
+    &__list {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -355px;
+      left: -18px !important;
+    }
+
+    &__moreinfo {
+      flex-direction: column;
+      max-width: 250px !important;
+      min-width: 250px !important;
+      margin-top: 180px !important;
+      margin-bottom: 30px !important;
+      position: relative;
+      left: 177px;
+      top: -265px;
+    }
+
+    &__politics {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+      font-size: 18px !important;
+      min-width: 250px !important;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 250px !important;
+      font-size: 18px !important;
+    }
+  }
+}
+
+@media (max-width: 340px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    width: 320px !important;
+    margin: 0 auto;
+    &__list1 {
+      display: flex;
+      flex-direction: column;
+      width: 250px !important;
+    }
+
+    &__list1-item {
+      margin-right: 32px !important;
+      margin-bottom: 20px;
+      justify-content: flex-start;
+    }
+
+    &__list1-item-img {
+      margin-right: 20px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list1-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list1-fix-margin {
+      margin-right: 60px;
+    }
+
+    &__list2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px !important;
+      width: 250px;
+      margin-left: 0px !important;
+    }
+
+    &__list2-item {
+      margin-top: -10px;
+      margin-right: 61px;
+      margin-bottom: 30px;
+      justify-content: flex-start;
+      width: 250px;
+    }
+
+    &__list2-item-img {
+      margin-right: 20px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list2-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list2-fix-margin {
+      margin-right: 65px;
+    }
+  }
+  .footer-box {
+    padding-left: 30px;
+    padding-top: 50px;
+    min-height: 980px !important;
+    width: 320px !important;
+  }
+  .footer-uprow {
+    min-height: 250px !important;
+    margin-left: 30px !important;
+    height: 116px;
+    flex-direction: column !important;
+    width: 250px !important;
+
+    &__logo {
+      min-width: 215px !important;
+      min-height: 30px !important;
+      margin-left: -30px;
+      margin-bottom: 0px !important;
+    }
+
+    &__telephone {
+      font-size: 18px !important;
+      margin-bottom: 15px;
+      margin-top: 0px;
+      margin-left: -27px !important;
+    }
+
+    &__mail {
+      font-size: 18px !important;
+      margin-left: -27px !important;
+      padding-top: 0px !important;
+    }
+    &__logo2 {
+      width: 124px !important;
+      height: 37px !important;
+      margin-top: -15px;
+    }
+  }
+  .footer-downrow {
+    flex-direction: column;
+    width: 250px !important;
+  }
+  .footer-box1 {
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      width: 250px !important;
+      margin-left: 0px;
+      position: relative;
+      top: 230px;
+      left: 16px;
+    }
+
+    &__info-text1 {
+      min-width: 250px !important;
+      max-width: 250px !important;
+      min-height: 100px !important;
+      margin-top: 30px;
+      margin-bottom: 0px !important;
+      font-size: 18px !important;
+    }
+
+    &__info-text2 {
+      min-width: 250px !important;
+      min-height: 100px !important;
+      margin-bottom: 0px !important;
+      font-size: 18px !important;
+      margin-top: -15px;
+    }
+  }
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px !important;
+    &__list {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -355px;
+      left: -18px !important;
+    }
+
+    &__moreinfo {
+      flex-direction: column;
+      max-width: 250px !important;
+      min-width: 250px !important;
+      margin-top: 180px !important;
+      margin-bottom: 30px !important;
+      position: relative;
+      left: 177px;
+      top: -265px;
+    }
+
+    &__politics {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+      font-size: 18px !important;
+      min-width: 250px !important;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 250px !important;
+      font-size: 18px !important;
+    }
+  }
+}

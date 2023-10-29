@@ -1,0 +1,138 @@
+@media (max-width: 767px) {
+  div.present-company-advantages {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .own-production,
+    .ecological-materials {
+      margin-top: 15px;
+      margin-left: 0;
+      width: 288px;
+      height: 310px;
+      border-radius: 10px;
+      flex-shrink: 0;
+      flex-basis: 1;
+
+      video {
+        height: 100%;
+        position: absolute;
+        left: -182px;
+        top: 0px;
+      }
+
+      .overlay-description {
+        height: 310px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(33, 33, 33, 0.7);
+        border-radius: 10px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        color: white;
+
+        .advantage-title {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 28px;
+          line-height: 100%;
+
+          letter-spacing: -0.03em;
+          text-transform: lowercase;
+        }
+
+        .advantage-text {
+          width: 100%;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 100%;
+
+          display: flex;
+          align-items: flex-end;
+          letter-spacing: -0.03em;
+
+          color: #bdbdbd;
+        }
+      }
+    }
+
+    .delivery-russia {
+      margin-top: 15px;
+      margin-left: 0;
+      width: 288px;
+      height: 310px;
+      border-radius: 10px;
+      flex-shrink: 0;
+      flex-basis: 1;
+
+      video {
+        height: 100%;
+        position: absolute;
+        left: -120px;
+        top: 0px;
+      }
+
+      .overlay-description {
+        .overlay-description-wrapper {
+          height: 310px;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: rgba(33, 33, 33, 0.7);
+          border-radius: 10px;
+          padding: 15px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          color: white;
+
+          .advantage-title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 100%;
+
+            letter-spacing: -0.03em;
+            text-transform: lowercase;
+          }
+
+          .advantage-text {
+            width: 100%;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: -0.03em;
+
+            color: #bdbdbd;
+          }
+        }
+      }
+    }
+
+    &__item {
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+
+      overflow: hidden;
+      position: relative;
+    }
+  }
+}

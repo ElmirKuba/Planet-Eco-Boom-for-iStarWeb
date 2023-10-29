@@ -1,0 +1,173 @@
+.news-and-promo {
+  height: 643px;
+
+  &__top {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title-link {
+    width: 645px;
+    height: 64px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+  }
+
+  &__link {
+    margin-top: 22px;
+    width: 164px;
+    height: 22px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 90%;
+
+    letter-spacing: -0.06em;
+    text-decoration-line: underline;
+
+    color: #27ae60;
+
+    background-image: url("/images/main/news-and-promo/title-link__link-arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  @media (min-width: 767px) and (max-width: 992px) {
+    &__manager-buttons {
+      display: none;
+    }
+
+    &__button-left {
+      display: none;
+    }
+
+    &__button-right {
+      display: none;
+    }
+  }
+
+  &__manager-buttons {
+    margin-top: 2px;
+    width: 135px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__button-left {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4efdf;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-image: url("/images/main/sales-hits-box/manager-button__button-left.svg");
+
+    &:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+
+  &__button-right {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4efdf;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-image: url("/images/main/sales-hits-box/manager-button__button-right.svg");
+
+    &:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+
+  &__items {
+    margin-top: 60px;
+    height: 520px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 330px;
+    // background-color: red;
+  }
+
+  &__item-preview {
+    border-radius: 20px;
+    width: 330px;
+    height: 378.82px;
+    padding: 15px;
+  }
+
+  &__item-date {
+    background-color: #fff;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+
+    border-radius: 10px;
+    padding: 10px;
+
+    width: 108px;
+    height: 37.88px;
+  }
+
+  &__item-description {
+    margin-top: 15px;
+  }
+
+  &__item-description-hashtag {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+
+    letter-spacing: -0.06em;
+
+    color: #27ae60;
+  }
+
+  &__item-description-text {
+    margin-top: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+  }
+}
+
+@import "./_news-and-promo-mobile";

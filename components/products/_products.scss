@@ -1,0 +1,268 @@
+.products {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 767px) {
+    width: 90%;
+  }
+
+  .bread-crumbs {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #bdbdbd;
+
+    @media (max-width: 767px) {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #bdbdbd;
+    }
+
+    span {
+      display: inline-block;
+    }
+
+    &__pointer-separator {
+      margin-left: 7px;
+      margin-right: 5px;
+      margin-bottom: 3.5px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+
+      background-color: #bdbdbd;
+
+      @media (max-width: 767px) {
+      }
+    }
+  }
+
+  h2.titgle-page {
+    margin-top: 15px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+
+    @media (max-width: 767px) {
+      width: 290px;
+      min-height: 72px;
+
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+  }
+
+  .component-products-categories {
+    margin-top: 30px;
+  }
+
+  @media (max-width: 767px) {
+    .component-products-categories {
+      margin-top: 30px;
+    }
+  }
+
+  @import "./product-categories/_product-categories"; /* компонент категорий продуктов ниже под h2 "стаканы бумажные" */
+  @import "./product-page-description/_product-page-description"; /* описание товаров ниже блока с витриной товаров */
+
+  @media (max-width: 767px) {
+    .component-products-page-description {
+      margin-top: 60px;
+    }
+  }
+
+  @media (min-width: 767px) {
+    .component-products-page-description {
+      margin-top: 120px;
+    }
+  }
+
+  .products-showcase {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+
+    @media (max-width: 587px) {
+      width: 288px;
+    }
+
+    &__item {
+      width: 330px;
+      height: 453px;
+      margin-top: 30px;
+
+      @media (max-width: 767px) {
+        width: 288px;
+        height: 386px;
+      }
+
+      .product-item-preview {
+        width: 330px;
+        height: 380px;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        background-size: cover;
+
+        @media (max-width: 767px) {
+          width: 288px;
+          height: 332px;
+        }
+
+        &__discount {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 100%;
+
+          letter-spacing: -0.06em;
+          text-transform: lowercase;
+
+          color: #ffffff;
+
+          padding: 10px;
+          background-color: #27ae60;
+          border-radius: 10px;
+          width: 120px; // Вообще должно быть 111px но с запасом на скидку 99%:D, а так pixel perfect проходит только на 111px
+          text-align: center;
+        }
+
+        &__new-price {
+          background: #ffffff;
+          border-radius: 10px;
+          width: 140px;
+          height: 71px;
+          padding: 10px;
+
+          @media (max-width: 767px) {
+            width: 120px;
+            height: 67px;
+          }
+
+          span {
+            display: block;
+          }
+
+          &-old-price {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+
+            letter-spacing: -0.06em;
+            text-decoration-line: line-through;
+            text-transform: lowercase;
+
+            color: #bdbdbd;
+            margin-bottom: 5px;
+          }
+
+          &-current-price {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 100%;
+
+            letter-spacing: -0.06em;
+            text-transform: lowercase;
+
+            color: #27ae60;
+
+            @media (max-width: 767px) {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 100%;
+
+              letter-spacing: -0.06em;
+              text-transform: lowercase;
+
+              color: #27ae60;
+            }
+          }
+        }
+
+        &__only-price {
+          background: #ffffff;
+          border-radius: 10px;
+          width: 140px;
+          height: 44px;
+          padding: 10px;
+
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 100%;
+
+          letter-spacing: -0.06em;
+          text-transform: lowercase;
+
+          color: #212121;
+        }
+      }
+
+      .product-item-title {
+        margin-top: 15px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+
+        letter-spacing: -0.06em;
+        text-transform: lowercase;
+
+        color: #212121;
+
+        @media (max-width: 767px) {
+          margin-top: 10px;
+
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 120%;
+
+          letter-spacing: -0.06em;
+          text-transform: lowercase;
+
+          color: #212121;
+        }
+      }
+    }
+  }
+}

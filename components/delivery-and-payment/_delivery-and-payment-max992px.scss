@@ -1,0 +1,276 @@
+@media (max-width: 992px) {
+  .delivery-and-payment {
+    &__box {
+      margin: 0 auto !important;
+      padding-top: 22px !important;
+      width: 730px;
+    }
+  }
+  .delivery-and-payment {
+    &__text {
+      width: 620px !important;
+    }
+
+    &__text-header {
+      width: 620px !important;
+    }
+
+    &__text-area {
+      width: 700px !important;
+    }
+  }
+}
+@media (max-width: 871px) {
+  .delivery-and-payment {
+    &__box {
+      margin: 0 auto !important;
+      margin-left: 20px !important;
+    }
+  }
+  .delivery-and-payment {
+    &__text {
+      width: 550px !important;
+      height: fit-content !important;
+      margin-bottom: 60px !important;
+    }
+
+    &__text-header {
+      width: 550px !important;
+    }
+
+    &__text-area {
+      width: 705px !important;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .delivery-and-payment {
+    &__box {
+      margin: 0 auto !important;
+      margin-left: 20px !important;
+    }
+  }
+  .delivery-and-payment {
+    &__text {
+      width: 520px !important;
+    }
+
+    &__text-header {
+      width: 520px !important;
+    }
+
+    &__text-area {
+      width: 685px !important;
+    }
+  }
+}
+@media (max-width: 737px) {
+  .delivery-and-payment {
+    &__box {
+      margin: 0 auto !important;
+      margin-left: 20px !important;
+      width: 605px !important;
+    }
+  }
+  .delivery-and-payment {
+    &__box {
+      width: 550px !important;
+    }
+    &__text {
+      width: 550px !important;
+    }
+
+    &__text-header {
+      width: 550px !important;
+    }
+
+    &__text-area {
+      width: 550px !important;
+    }
+  }
+  .delivery-and-payment {
+    &__text-area {
+      width: 550px !important;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .delivery-and-payment {
+    &__box {
+      margin: 0 auto !important;
+      margin-left: 20px !important;
+      width: 505px !important;
+    }
+  }
+  .delivery-and-payment {
+    &__box {
+      width: 450px !important;
+    }
+    &__text {
+      width: 450px !important;
+      margin-bottom: 350px !important;
+    }
+
+    &__text-header {
+      width: 450px !important;
+    }
+
+    &__text-area {
+      width: 450px !important;
+    }
+
+    &__header {
+      font-size: 52px !important;
+    }
+  }
+  .delivery-and-payment {
+    &__text-area {
+      width: 450px !important;
+    }
+  }
+}
+
+@media (max-width: 486px) {
+  .delivery-and-payment {
+    &__box {
+      margin: 0 auto !important;
+      margin-left: 20px !important;
+      width: 450px !important;
+    }
+  }
+  .delivery-and-payment {
+    &__box {
+      width: 400px !important;
+    }
+    &__text {
+      width: 400px !important;
+      margin-bottom: 400px !important;
+    }
+
+    &__text-header {
+      width: 400px !important;
+    }
+
+    &__text-area {
+      width: 400px !important;
+    }
+
+    &__header {
+      font-size: 52px !important;
+    }
+  }
+  .delivery-and-payment {
+    &__text-area {
+      width: 400px !important;
+    }
+  }
+
+  @media (max-width: 436px) {
+    .delivery-and-payment {
+      &__box {
+        margin: 0 auto !important;
+        margin-left: 20px !important;
+        width: 400px !important;
+      }
+    }
+    .delivery-and-payment {
+      &__box {
+        width: 350px !important;
+      }
+      &__text {
+        width: 350px !important;
+        margin-bottom: 550px !important;
+      }
+
+      &__text-header {
+        width: 350px !important;
+      }
+
+      &__text-area {
+        width: 350px !important;
+      }
+      &__header {
+        font-size: 52px !important;
+      }
+    }
+    .delivery-and-payment {
+      &__text-area {
+        width: 350px !important;
+      }
+    }
+  }
+
+  @media (max-width: 376px) {
+    .delivery-and-payment {
+      &__box {
+        margin: 0 auto !important;
+        margin-left: 20px !important;
+        width: 350px !important;
+      }
+    }
+    .delivery-and-payment {
+      &__box {
+        width: 300px !important;
+      }
+      &__text {
+        width: 300px !important;
+        margin-bottom: 720px !important;
+      }
+
+      &__text-header {
+        width: 300px !important;
+      }
+
+      &__text-area {
+        width: 300px !important;
+      }
+
+      &__header {
+        font-size: 52px !important;
+      }
+    }
+    .delivery-and-payment {
+      &__text-area {
+        width: 300px !important;
+      }
+    }
+  }
+
+  @media (max-width: 320px) {
+    .delivery-and-payment {
+      &__box {
+        margin: 0 auto !important;
+        margin-left: 20px !important;
+        width: 300px !important;
+      }
+    }
+    .delivery-and-payment {
+      &__box {
+        width: 280px !important;
+      }
+      &__text {
+        width: 280px !important;
+        margin-bottom: 800px !important;
+      }
+
+      &__text-header {
+        width: 280px !important;
+      }
+
+      &__text-area {
+        width: 280px !important;
+      }
+
+      &__header {
+        font-size: 52px !important;
+      }
+    }
+    .delivery-and-payment {
+      &__text-area {
+        width: 280px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,253 @@
+.about {
+  .about-box {
+    margin: 0 auto;
+    width: 930px;
+    margin-top: 22px;
+    margin-bottom: 110px;
+
+    .about-link {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: -0.06em;
+      color: #bdbdbd;
+      text-decoration: none;
+    }
+
+    .about-header {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 100%;
+      letter-spacing: -0.06em;
+      color: #212121;
+      margin-top: 13px;
+    }
+
+    .about-image {
+      margin-top: 60px;
+      width: 273px;
+      height: 380px;
+      border-radius: 20px;
+      margin: 60px auto 0 auto;
+
+      background-image: url("./images/about/tree_image.png");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: cover;
+    }
+
+    .about-text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 150%;
+      letter-spacing: -0.03em;
+      color: #212121;
+      margin-top: 60px;
+      height: fit-content;
+
+      &__p-second,
+      &__p-third,
+      &__p-fourth {
+        margin-top: 36px;
+      }
+    }
+
+    @import "./present-company-advantages/_present-company-advantages";
+    /* блоки с видео на фоне компонент презентации преимуществ компании */
+
+    .about-leadership {
+      margin-top: 90px;
+      margin-left: 4px;
+
+      &__header {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 150%;
+        letter-spacing: -0.03em;
+        color: #212121;
+      }
+
+      &__workers {
+        display: flex;
+        margin-top: 30px;
+      }
+
+      &__card1 {
+        margin-right: 30px;
+      }
+
+      &__image1 {
+        width: 323px;
+        height: 351px;
+        margin-bottom: 10px;
+      }
+
+      &__worker-name1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.06em;
+        color: #212121;
+        margin-bottom: 10px;
+      }
+
+      &__worker-position1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.06em;
+        color: #212121;
+      }
+
+      &__image2 {
+        width: 323px;
+        height: 351px;
+        margin-bottom: 10px;
+      }
+
+      &__worker-name2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.06em;
+        color: #212121;
+        margin-bottom: 10px;
+        width: 323px;
+      }
+
+      &__worker-position2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.06em;
+        color: #212121;
+      }
+    }
+
+    .about-requisites {
+      margin-top: 90px;
+      margin-left: 1px;
+
+      div {
+        padding-bottom: 8px;
+        width: 930px;
+        display: flex;
+
+        .about-requisites__title {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 120%;
+          letter-spacing: -0.06em;
+          color: #212121;
+        }
+
+        .about-requisites__value {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 120%;
+          letter-spacing: -0.06em;
+          color: #212121;
+        }
+      }
+
+      &__header {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        color: #212121;
+        margin-bottom: 30px;
+      }
+
+      &__full-name,
+      &__short-name,
+      &__INN-name,
+      &__KPP-name,
+      &__OGRN-name,
+      &__legal-address-name,
+      &__actual-address-name,
+      &__general-director-name,
+      &__bank-name,
+      &__BIK-name,
+      &__count-score-name,
+      &__cor-score-name,
+      &__mail-name {
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .about-requisites__short-name {
+        margin-top: 15px;
+      }
+
+      .about-requisites__INN-name {
+        margin-top: 14px;
+      }
+
+      .about-requisites__KPP-name {
+        margin-top: 14px;
+      }
+
+      .about-requisites__OGRN-name {
+        margin-top: 14px;
+      }
+
+      .about-requisites__legal-address-name {
+        margin-top: 14px;
+      }
+
+      .about-requisites__actual-address-name {
+        margin-top: 14px;
+      }
+
+      .about-requisites__general-director-name {
+        margin-top: 15px;
+      }
+
+      .about-requisites__bank-name {
+        margin-top: 14px;
+      }
+
+      .about-requisites__BIK-name {
+        margin-top: 14px;
+      }
+
+      .about-requisites__count-score-name {
+        margin-top: 15px;
+      }
+
+      .about-requisites__cor-score-name {
+        margin-top: 15px;
+      }
+
+      .about-requisites__mail-name {
+        margin-top: 14px;
+      }
+
+      .about-requisites__telephone-name {
+        margin-top: 14px;
+      }
+
+      &__value {
+        margin-left: 30px;
+
+        span {
+          margin-right: 9px;
+        }
+      }
+    }
+  }
+}
+
+@import "./_about-max992px";
+@import "./_about-max767px";

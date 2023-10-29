@@ -1,0 +1,17 @@
+.header-logo {
+  &__image-mobile {
+    display: block;
+  }
+
+  &__image-desktop {
+    display: block;
+  }
+}
+
+// elmir.web
+@import "./_header-max767"; /* для экранов до 768 */
+@import "./_header-max992"; /* для экранов до 992 */
+@import "./_header-max1200"; /* для экранов до 1200 */
+@import "./_header-max1410"; /* для экранов до 1410 */
+@import "./_header-BIG-SCREEN"; /* для больших экранов */
+// elmir.web

@@ -1,0 +1,133 @@
+@media (max-width: 767px) {
+  .news-and-promo {
+    margin-left: 15px;
+    height: 471px;
+
+    &__top {
+      width: 100%;
+      height: 67px;
+    }
+
+    &__title-link {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &__title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+
+    &__link {
+      display: block;
+      width: 129px;
+      height: 16px;
+      margin-top: 15px;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 90%;
+
+      letter-spacing: -0.06em;
+      text-decoration-line: underline;
+
+      color: #27ae60;
+
+      background-image: url("/images/main/news-and-promo/title-link__link-arrow-right.svg");
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+
+    &__manager-buttons {
+      display: none;
+    }
+
+    &__button-left {
+      display: none;
+    }
+
+    &__button-right {
+      display: none;
+    }
+
+    &__items {
+      margin-top: 30px;
+      height: 244px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__item {
+      width: 212px;
+      height: 244px;
+    }
+
+    &__item-preview {
+      width: 212px;
+      height: 244px;
+      border-radius: 20px;
+      padding: 15px;
+      background-size: cover;
+    }
+
+    &__item-date {
+      background-color: #fff;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.06em;
+
+      color: #212121;
+
+      border-radius: 10px;
+      padding: 10px;
+
+      width: 100px;
+      height: 34px;
+    }
+
+    &__item-description {
+      margin-top: 15px;
+    }
+
+    &__item-description-hashtag {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 120%;
+
+      letter-spacing: -0.06em;
+
+      color: #27ae60;
+    }
+
+    &__item-description-text {
+      margin-top: 5px;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 120%;
+
+      letter-spacing: -0.06em;
+      text-transform: lowercase;
+
+      color: #212121;
+    }
+  }
+}

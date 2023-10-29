@@ -1,0 +1,319 @@
+.form-individ-gesign {
+  width: 100%;
+  min-height: 576px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 120px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  @media (min-width: 1201px) and (max-width: 1410px) {
+    padding-left: 30px;
+    padding-right: 60px;
+  }
+
+  @media (min-width: 993px) and (max-width: 1200px) {
+    padding-left: 15px;
+    padding-right: 30px;
+  }
+
+  @media (min-width: 767px) and (max-width: 992px) {
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    flex-direction: column;
+  }
+
+  &__cups-image {
+    position: absolute;
+    top: 268px;
+    right: 600px;
+    width: 902px;
+    height: 352px;
+
+    background-image: url("./images/form/cups.png");
+    background-size: cover;
+
+    @media (min-width: 1201px) and (max-width: 1410px) {
+      right: 400px;
+    }
+
+    @media (min-width: 993px) and (max-width: 1200px) {
+      top: 290px;
+      right: 200px;
+      z-index: 0;
+    }
+
+    @media (min-width: 767px) and (max-width: 992px) {
+      display: none;
+    }
+  }
+
+  &__left {
+    width: 47.23577235772358%;
+    height: 100%;
+
+    @media (min-width: 993px) and (max-width: 1200px) {
+      z-index: 1;
+    }
+
+    @media (min-width: 767px) and (max-width: 992px) {
+      width: 100%;
+    }
+  }
+
+  &__right {
+    width: 36.58536585365854%;
+    height: 100%;
+
+    @media (min-width: 993px) and (max-width: 1200px) {
+      z-index: 1;
+    }
+
+    @media (min-width: 767px) and (max-width: 992px) {
+      margin-top: 30px;
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1410px) {
+    &__left {
+      width: 50%;
+    }
+
+    &__right {
+      width: 40%;
+    }
+  }
+
+  @media (min-width: 993px) and (max-width: 1200px) {
+    &__left {
+      width: 42%;
+    }
+
+    &__right {
+      width: 55%;
+    }
+  }
+
+  @media (min-width: 767px) and (max-width: 992px) {}
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+  }
+
+  &__description {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+  }
+
+  &__action-before {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+  }
+
+  &__form-requist {
+    margin-top: 30px;
+  }
+
+  &__input-name {
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    outline: none;
+
+    padding-top: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+  }
+
+  &__input-name-label {
+    position: relative;
+    top: -50px;
+    left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    color: #bdbdbd;
+    transition: 0.3s;
+  }
+
+  .form-individ-gesign__input-name:focus~.form-individ-gesign__input-name-label,
+  .form-individ-gesign__input-name:not(:placeholder-shown)~.form-individ-gesign__input-name-label {
+    top: -60px;
+    left: 20px;
+    font-size: 21px;
+  }
+
+  &__input-phone {
+    margin-top: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    outline: none;
+
+    padding-top: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+  }
+
+  &__input-phone-label {
+    position: relative;
+    top: -50px;
+    left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    color: #bdbdbd;
+    transition: 0.3s;
+  }
+
+  .form-individ-gesign__input-phone:focus~.form-individ-gesign__input-phone-label,
+  .form-individ-gesign__input-phone:not(:placeholder-shown)~.form-individ-gesign__input-phone-label {
+    top: -60px;
+    left: 20px;
+    font-size: 21px;
+  }
+
+  &__input-email {
+    margin-top: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    outline: none;
+
+    padding-top: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+  }
+
+  &__input-email-label {
+    position: relative;
+    top: -50px;
+    left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    color: #bdbdbd;
+    transition: 0.3s;
+  }
+
+  .form-individ-gesign__input-email:focus~.form-individ-gesign__input-email-label,
+  .form-individ-gesign__input-email:not(:placeholder-shown)~.form-individ-gesign__input-email-label {
+    top: -60px;
+    left: 20px;
+    font-size: 21px;
+  }
+
+  &__send-request {
+    margin-top: 0px;
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 70px;
+    background-color: #27ae60;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+
+    text-align: center;
+    letter-spacing: -0.06em;
+
+    color: #ffffff;
+  }
+
+  &__text-personal-data {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+
+    letter-spacing: -0.06em;
+
+    color: #828282;
+
+    @media (min-width: 993px) and (max-width: 1200px) {
+      width: 80%;
+      margin-left: auto;
+    }
+
+    @media (min-width: 767px) and (max-width: 992px) {}
+  }
+
+  &__link-rules-of-form {
+    color: #27ae60;
+  }
+}
+
+@import "./_form-individ-design-mobile";

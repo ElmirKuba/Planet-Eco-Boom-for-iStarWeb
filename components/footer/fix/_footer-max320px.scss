@@ -1,0 +1,186 @@
+@media (max-width: 320px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    width: 290px !important;
+    margin: 0 auto;
+    &__list1 {
+      display: flex;
+      flex-direction: column;
+      width: 250px !important;
+    }
+
+    &__list1-item {
+      margin-right: 32px !important;
+      margin-bottom: 15px;
+      justify-content: flex-start;
+    }
+
+    &__list1-item-img {
+      margin-right: 15px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list1-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list1-fix-margin {
+      margin-right: 60px;
+    }
+
+    &__list2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px !important;
+      width: 280px !important;
+      margin-left: 0px !important;
+    }
+
+    &__list2-item {
+      margin-top: -10px;
+      margin-right: 61px;
+      margin-bottom: 25px;
+      justify-content: flex-start;
+      width: 270px;
+    }
+
+    &__list2-item-img {
+      margin-right: 15px !important;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__list2-item-link {
+      font-size: 21px !important;
+    }
+
+    &__list2-fix-margin {
+      margin-right: 65px;
+    }
+  }
+  .footer-box {
+    padding-left: 27px !important;
+    padding-top: 20px !important;
+    min-height: 828px !important;
+    width: 290px !important;
+  }
+  .footer-uprow {
+    min-height: 280px !important;
+    margin-left: 15px !important;
+    height: 116px;
+    flex-direction: column !important;
+    width: 250px !important;
+
+    &__logo {
+      min-width: 166px !important;
+      min-height: 30px !important;
+      max-width: 166px !important;
+      max-height: 30px !important;
+      margin-left: -25px !important;
+      margin-bottom: 0px !important;
+    }
+
+    &__telephone {
+      font-size: 18px !important;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-left: -27px !important;
+    }
+
+    &__mail {
+      font-size: 18px !important;
+      margin-left: -27px !important;
+      padding-top: 0px !important;
+    }
+    &__logo2 {
+      width: 130px !important;
+      height: 37px !important;
+      margin-left: -3px;
+      margin-top: -23px;
+    }
+  }
+  .footer-downrow {
+    flex-direction: column;
+    width: 250px !important;
+  }
+  .footer-box1 {
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      width: 300px !important;
+      margin-left: 0px;
+      width: 250px !important;
+      position: relative;
+      top: 120px;
+      left: 5px;
+    }
+
+    &__info-text1 {
+      min-width: 260px !important;
+      min-height: 100px !important;
+      margin-top: 30px;
+      margin-bottom: 0px !important;
+      font-size: 18px !important;
+    }
+
+    &__info-text2 {
+      min-width: 280px !important;
+      min-height: 100px !important;
+      margin-bottom: 15px !important;
+      font-size: 18px !important;
+      margin-top: -25px;
+    }
+  }
+  .footer-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px !important;
+    max-height: 250px !important;
+    width: 250px !important;
+    &__list {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -423px;
+      left: -31px !important;
+    }
+
+    &__moreinfo {
+      flex-direction: column;
+      max-width: 250px !important;
+      min-width: 250px !important;
+      margin-top: 180px !important;
+      margin-bottom: 30px !important;
+      position: relative;
+      left: 163px;
+      top: -355px;
+    }
+
+    &__politics {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 20px !important;
+      font-size: 18px !important;
+      min-width: 250px !important;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 250px !important;
+      font-size: 18px !important;
+    }
+  }
+}

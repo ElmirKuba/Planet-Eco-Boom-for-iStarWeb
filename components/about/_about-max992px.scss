@@ -1,0 +1,103 @@
+@media (max-width: 992px) {
+  .about-box {
+    width: 767px !important;
+  }
+  .about-main {
+    &__page {
+      width: 200px;
+    }
+  }
+  .about-image {
+    width: 273px;
+    height: 380px;
+  }
+  .about-text {
+    width: 767px;
+  }
+  .about-leadership {
+    width: 767px;
+  }
+  .about-requisites {
+    width: 767px;
+
+    &__full-name {
+      width: 767px !important;
+    }
+
+    &__title {
+      width: 400px !important;
+    }
+
+    &__value {
+      width: 300px !important;
+    }
+
+    &__short-name,
+    &__INN-name,
+    &__KPP-name,
+    &__OGRN-name,
+    &__legal-address-name,
+    &__actual-address-name,
+    &__general-director-name,
+    &__bank-name,
+    &__BIK-name,
+    &__count-score-name,
+    &__cor-score-name,
+    &__mail-name,
+    &__telephone-name {
+      width: 767px !important;
+    }
+  }
+}
+
+@media (max-width: 825px) {
+  .about-box {
+    width: 730px !important;
+  }
+  .about-main {
+    &__page {
+      width: 200px;
+    }
+  }
+  .about-image {
+    width: 273px;
+    height: 380px;
+  }
+  .about-text {
+    width: 730px;
+  }
+  .about-leadership {
+    width: 730px;
+  }
+  .about-requisites {
+    width: 730px;
+
+    &__full-name {
+      width: 730px !important;
+    }
+
+    &__title {
+      width: 400px !important;
+    }
+
+    &__value {
+      width: 300px !important;
+    }
+
+    &__short-name,
+    &__INN-name,
+    &__KPP-name,
+    &__OGRN-name,
+    &__legal-address-name,
+    &__actual-address-name,
+    &__general-director-name,
+    &__bank-name,
+    &__BIK-name,
+    &__count-score-name,
+    &__cor-score-name,
+    &__mail-name,
+    &__telephone-name {
+      width: 730px !important;
+    }
+  }
+}

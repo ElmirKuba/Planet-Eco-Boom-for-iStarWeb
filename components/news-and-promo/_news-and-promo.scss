@@ -1,0 +1,223 @@
+.news-and-promo {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 767px) {
+    width: 90%;
+  }
+
+  .bread-crumbs {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #bdbdbd;
+
+    @media (max-width: 767px) {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #bdbdbd;
+    }
+
+    span {
+      display: inline-block;
+    }
+
+    &__pointer-separator {
+      margin-left: 7px;
+      margin-right: 5px;
+      margin-bottom: 3.5px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+
+      background-color: #bdbdbd;
+
+      @media (max-width: 767px) {
+      }
+    }
+  }
+
+  &__title {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+
+    letter-spacing: -0.06em;
+
+    color: #212121;
+
+    @media (max-width: 767px) {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+  }
+
+  .news-and-promo-elements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 767px) {
+      width: 76.4%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__item {
+      margin-top: 30px;
+      width: 330px;
+
+      @media (max-width: 767px) {
+        width: 212px;
+      }
+    }
+
+    .one-element {
+      &__preview {
+        border-radius: 20px;
+
+        width: 330px;
+        height: 378.82px;
+
+        padding: 15px;
+        background-size: cover;
+
+        @media (max-width: 767px) {
+          width: 212px;
+          height: 244px;
+        }
+      }
+
+      &__date-event {
+        background-color: #fff;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+
+        letter-spacing: -0.06em;
+
+        color: #212121;
+
+        border-radius: 10px;
+        padding: 10px;
+
+        width: fit-content;
+        height: fit-content;
+
+        @media (max-width: 767px) {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 100%;
+
+          display: flex;
+          align-items: center;
+          letter-spacing: -0.06em;
+
+          color: #212121;
+        }
+      }
+
+      .one-element-description {
+        margin-top: 15px;
+
+        &__hashtag {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 120%;
+
+          letter-spacing: -0.06em;
+
+          color: #27ae60;
+
+          @media (max-width: 767px) {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 120%;
+
+            letter-spacing: -0.06em;
+
+            color: #27ae60;
+          }
+        }
+
+        &__text {
+          margin-top: 10px;
+
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 120%;
+
+          letter-spacing: -0.06em;
+
+          color: #212121;
+
+          @media (max-width: 767px) {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 120%;
+
+            letter-spacing: -0.06em;
+            text-transform: lowercase;
+
+            color: #212121;
+          }
+        }
+      }
+    }
+  }
+
+  &__buttons {
+    margin-top: 63px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__button-more {
+    border-radius: 10px;
+    border: 1px solid #27ae60;
+    background-color: inherit;
+    width: 330px;
+    height: 70px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+
+    text-align: center;
+    letter-spacing: -0.06em;
+
+    color: #27ae60;
+
+    @media (max-width: 767px) {
+      width: 212px;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+main.main {
+  @media (max-width: 767px) {
+    .component-company-present-company-advantages {
+      margin-top: 9.5px;
+    }
+
+    .component-transit-goto-add-act {
+      margin-top: 15px;
+    }
+
+    .component-sales-hits-box {
+      margin-top: 60px;
+    }
+
+    .component-products-and-categories {
+      margin-top: 50px;
+    }
+
+    .component-form-for-request-individual-design {
+      margin-top: 60px;
+    }
+
+    .component-they-cooperating {
+      margin-top: 60px;
+    }
+
+    .component-news-and-promo {
+      margin-top: 60px;
+    }
+  }
+
+  @media (min-width: 767px) {
+    .component-company-present-company-advantages {
+      margin-top: 25px;
+    }
+
+    .component-transit-goto-add-act {
+      margin-top: 30px;
+    }
+
+    .component-sales-hits-box {
+      margin-top: 120px;
+    }
+
+    .component-products-and-categories {
+      margin-top: 120px;
+    }
+
+    .component-form-for-request-individual-design {
+      margin-top: 120px;
+    }
+
+    .component-they-cooperating {
+      margin-top: 60px;
+    }
+
+    .component-news-and-promo {
+      margin-top: 120px;
+    }
+  }
+
+  @import "./first-slider/_first-slider"; /* first-slider */
+  @import "./present-company-advantages/_present-company-advantages"; /* блоки с видео на фоне компонент презентации преимуществ компании */
+  @import "./transit-goto-add-act/_transit-goto-add-act"; /* перейти в каталог и отправить заявку */
+  @import "./sales-hits-box/_sales-hits-box"; /* хиты продаж */
+  @import "./products-and-categories/_products-and-categories"; /* продукция */
+  @import "./they-cooperating/_they-cooperating"; /* с нами уже сотрудничают */
+  @import "./news-and-promo/_news-and-promo"; /* новости и акции */
+}

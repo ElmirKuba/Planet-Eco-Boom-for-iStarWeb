@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+  .individual-design {
+    &__box {
+      width: 767px;
+      margin: 0 auto;
+    }
+
+    &__text {
+      width: 100%;
+      height: fit-content;
+    }
+
+    .component-example-works-slider {
+      width: 100%;
+    }
+  }
+}

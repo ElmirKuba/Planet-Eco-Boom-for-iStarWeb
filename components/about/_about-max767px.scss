@@ -1,0 +1,488 @@
+@media (max-width: 767px) {
+  .about {
+    width: 100% !important;
+  }
+
+  .about-box {
+    width: 90% !important;
+    margin-bottom: 60px !important;
+  }
+
+  .about-main {
+    &__page {
+      width: 17% !important;
+    }
+  }
+
+  .about-header {
+    width: 65% !important;
+  }
+
+  .about-image {
+    width: 273px;
+    height: 380px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-leadership {
+    width: 100%;
+
+    &__header {
+      width: 63%;
+    }
+
+    &__workers {
+      width: 100%;
+    }
+
+    &__card1 {
+      width: 90%;
+    }
+
+    &__image1 {
+      width: 288px !important;
+      height: 314px !important;
+    }
+
+    &__image2 {
+      width: 288px !important;
+      height: 314px !important;
+    }
+  }
+
+  .about-requisites {
+    width: 100%;
+
+    &__full-name {
+      width: 100% !important;
+    }
+
+    &__title {
+      width: 400px !important;
+    }
+
+    &__value {
+      width: 300px !important;
+    }
+
+    &__short-name,
+    &__INN-name,
+    &__KPP-name,
+    &__OGRN-name,
+    &__legal-address-name,
+    &__actual-address-name,
+    &__general-director-name,
+    &__bank-name,
+    &__BIK-name,
+    &__count-score-name,
+    &__cor-score-name,
+    &__mail-name,
+    &__telephone-name {
+      width: 100% !important;
+    }
+  }
+}
+
+@media (max-width: 728px) {
+  .about {
+    width: 100% !important;
+  }
+
+  .about-box {
+    width: 90% !important;
+  }
+
+  .about-main {
+    &__page {
+      width: 17% !important;
+    }
+  }
+
+  .about-header {
+    width: 65% !important;
+  }
+
+  .about-image {
+    width: 273px;
+    height: 380px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-leadership {
+    width: 100%;
+    margin-top: 60px !important;
+
+    &__header {
+      width: 83%;
+    }
+
+    &__workers {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+
+    &__card1 {
+      margin-bottom: 30px;
+      margin-right: auto !important;
+      margin: 0 auto 30px auto;
+      width: 288px;
+    }
+
+    &__image1 {
+      width: 288px !important;
+      height: 314px !important;
+    }
+
+    &__worker-name1 {
+      width: 100%;
+      font-size: 22px !important;
+    }
+
+    &__worker-position1 {
+      width: 30%;
+    }
+
+    &__card2 {
+      margin: 0 auto;
+      width: 288px;
+    }
+
+    &__image2 {
+      width: 288px !important;
+      height: 314px !important;
+    }
+
+    &__worker-name2 {
+      width: 100%;
+      font-size: 22px !important;
+    }
+
+    &__worker-position2 {
+      width: 90%;
+    }
+  }
+
+  .about-requisites {
+    width: 100%;
+
+    &__full-name {
+      width: 100% !important;
+    }
+
+    &__title {
+      width: 40% !important;
+    }
+
+    &__value {
+      width: 300px !important;
+    }
+
+    &__short-name,
+    &__INN-name,
+    &__KPP-name,
+    &__OGRN-name,
+    &__legal-address-name,
+    &__actual-address-name,
+    &__general-director-name,
+    &__bank-name,
+    &__BIK-name,
+    &__count-score-name,
+    &__cor-score-name,
+    &__mail-name,
+    &__telephone-name {
+      width: 100% !important;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .about-leadership {
+    margin-top: 60px !important;
+  }
+}
+
+@media (max-width: 696px) {
+  .about-leadership {
+    margin-top: 60px !important;
+  }
+}
+
+@media (max-width: 682px) {
+  .about {
+    width: 100% !important;
+  }
+
+  .about-box {
+    width: 90% !important;
+  }
+
+  .about-main {
+    &__page {
+      width: 17% !important;
+    }
+  }
+
+  .about-header {
+    width: 90% !important;
+  }
+
+  .about-image {
+    width: 273px;
+    height: 380px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-leadership {
+    width: 100%;
+    margin-top: 60px !important;
+    margin-left: 0px !important;
+
+    &__header {
+      width: 90%;
+    }
+
+    &__workers {
+      flex-direction: column;
+
+      width: 100%;
+    }
+
+    &__card1 {
+      width: 288px;
+      margin-bottom: 30px;
+      align-items: center;
+    }
+
+    &__image1 {
+      width: 288px !important;
+      height: 314px !important;
+    }
+
+    &__card2 {
+      width: 288px;
+    }
+
+    &__image2 {
+      width: 288px !important;
+      height: 314px !important;
+    }
+
+    &__worker-name2 {
+      width: 290px !important;
+    }
+  }
+
+  .about-requisites {
+    width: 100%;
+
+    &__full-name {
+      flex-direction: column;
+      width: 100% !important;
+    }
+
+    &__title {
+      width: 100% !important;
+    }
+
+    &__value {
+      margin-left: 0px !important;
+      width: 100% !important;
+    }
+
+    &__short-name,
+    &__INN-name,
+    &__KPP-name,
+    &__OGRN-name,
+    &__legal-address-name,
+    &__actual-address-name,
+    &__general-director-name,
+    &__bank-name,
+    &__BIK-name,
+    &__count-score-name,
+    &__cor-score-name,
+    &__mail-name,
+    &__telephone-name {
+      flex-direction: column;
+      width: 100% !important;
+      margin-top: 0px !important;
+    }
+  }
+}
+
+@media (max-width: 549px) {
+  .about-requisites {
+    margin-top: 90px;
+    margin-left: 1px;
+
+    &__full-name,
+    &__short-name,
+    &__INN-name,
+    &__KPP-name,
+    &__OGRN-name,
+    &__legal-address-name,
+    &__actual-address-name,
+    &__general-director-name,
+    &__bank-name,
+    &__BIK-name,
+    &__count-score-name,
+    &__cor-score-name,
+    &__mail-name {
+      border: none !important;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .about {
+    width: 100% !important;
+  }
+
+  .about-box {
+    width: 90% !important;
+  }
+
+  .about-main {
+    &__page {
+      width: 17% !important;
+    }
+  }
+
+  .about-link {
+    font-size: 14px !important;
+  }
+
+  .about-header {
+    width: 90% !important;
+    font-size: 36px !important;
+  }
+
+  .about-image {
+    width: 273px !important;
+    height: 160px !important;
+    background-image: url("./images/about/tree_image_mobile.png") !important;
+  }
+
+  .about-text {
+    width: 100%;
+
+    &__p-first {
+      font-size: 18px;
+    }
+
+    &__p-second {
+      font-size: 18px;
+    }
+
+    &__p-third {
+      font-size: 18px;
+    }
+
+    &__p-fourth {
+      font-size: 18px;
+    }
+  }
+
+  .about-leadership {
+    width: 100%;
+    margin-top: 60px !important;
+
+    &__header {
+      width: 60%;
+      font-size: 28px !important;
+    }
+
+    &__workers {
+      flex-direction: column;
+
+      width: 100%;
+    }
+
+    &__card1 {
+      width: 288px;
+      margin-bottom: 30px;
+      align-items: center;
+    }
+
+    &__image1 {
+      width: 288px !important;
+      height: 314px !important;
+    }
+
+    &__worker-name1 {
+      font-size: 18px !important;
+    }
+
+    &__worker-position1 {
+      font-size: 18px !important;
+    }
+
+    &__card2 {
+      width: 288px;
+    }
+
+    &__image2 {
+      width: 288px !important;
+      height: 314px !important;
+    }
+
+    &__worker-name2 {
+      font-size: 18px !important;
+    }
+
+    &__worker-position2 {
+      font-size: 18px !important;
+    }
+  }
+
+  .about-requisites {
+    width: 100%;
+
+    &__header {
+      font-size: 28px !important;
+    }
+
+    &__full-name {
+      flex-direction: column;
+      width: 100% !important;
+    }
+
+    &__title {
+      width: 100% !important;
+      font-size: 18px !important;
+      color: #bdbdbd !important;
+    }
+
+    &__value {
+      margin-left: 0px !important;
+      width: 100% !important;
+      font-size: 18px !important;
+    }
+
+    &__short-name,
+    &__INN-name,
+    &__KPP-name,
+    &__OGRN-name,
+    &__legal-address-name,
+    &__actual-address-name,
+    &__general-director-name,
+    &__bank-name,
+    &__BIK-name,
+    &__count-score-name,
+    &__cor-score-name,
+    &__mail-name,
+    &__telephone-name {
+      flex-direction: column;
+      width: 100% !important;
+    }
+  }
+}

@@ -1,0 +1,705 @@
+@media (max-width: 767px) {
+  .contacts {
+    width: 100%;
+  }
+  .contacts-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .contacts-main {
+    &__page {
+      width: 15%;
+    }
+  }
+  .contacts-header {
+    width: 46%;
+  }
+  .contacts-telephone {
+    &__header {
+      width: 23%;
+    }
+
+    &__number {
+      width: 80%;
+    }
+  }
+
+  .contacts-sales {
+    &_department-name {
+      width: 70%;
+    }
+
+    &__item {
+      width: 120%;
+    }
+  }
+  .contacts-otherinfo {
+    width: 80%;
+
+    &__mail-name {
+      width: 46%;
+    }
+
+    &__mail-value {
+      width: 46%;
+    }
+
+    &__address-name {
+      width: 75%;
+    }
+
+    &__address-value {
+      width: 75%;
+    }
+
+    &__worktime-name {
+      width: 35%;
+    }
+
+    &__worktime-value {
+      width: 54%;
+    }
+  }
+  .contacts-map {
+    width: 100%;
+  }
+  .contacts-callback {
+    &__name {
+      width: 64%;
+    }
+
+    &__box1 {
+      width: 100%;
+      justify-content: center;
+    }
+
+    &__label-box {
+      margin-right: 10px;
+    }
+
+    &__input-name {
+      width: 93%;
+    }
+
+    &__input-company {
+      width: 100%;
+    }
+
+    &__input-mail {
+      width: 93%;
+    }
+
+    &__input-telephone {
+      width: 100%;
+    }
+
+    &__textarea {
+      width: 100%;
+    }
+
+    .fix-margin {
+      margin-right: 0px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .contacts {
+    width: 100%;
+  }
+  .contacts-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .contacts-main {
+    &__page {
+      width: 15%;
+    }
+  }
+  .contacts-header {
+    width: 46%;
+  }
+  .contacts-telephone {
+    &__header {
+      width: 23%;
+    }
+
+    &__number {
+      width: 80%;
+      font-size: 54px;
+    }
+  }
+
+  .contacts-sales {
+    &_department-name {
+      width: 80%;
+    }
+
+    &__item {
+      width: 120%;
+      font-size: 22px;
+    }
+  }
+  .contacts-otherinfo {
+    width: 80%;
+
+    &__mail-name {
+      width: 46%;
+    }
+
+    &__mail-value {
+      width: 46%;
+      font-size: 22px;
+    }
+
+    &__address-name {
+      width: 85%;
+    }
+
+    &__address-value {
+      width: 75%;
+      font-size: 22px;
+    }
+
+    &__worktime-name {
+      width: 35%;
+    }
+
+    &__worktime-value {
+      width: 70%;
+      font-size: 22px;
+    }
+  }
+  .contacts-map {
+    width: 100%;
+  }
+  .contacts-callback {
+    &__name {
+      width: 80%;
+    }
+
+    &__box1 {
+      width: 100%;
+      justify-content: center;
+    }
+
+    &__label-box {
+      margin-right: 10px;
+    }
+
+    &__input-name {
+      width: 93%;
+    }
+
+    &__input-company {
+      width: 100%;
+    }
+
+    &__input-mail {
+      width: 93%;
+    }
+
+    &__input-telephone {
+      width: 100%;
+    }
+
+    &__textarea {
+      width: 100%;
+    }
+
+    .fix-margin {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media (max-width: 638px) {
+  .contacts {
+    width: 100%;
+  }
+  .contacts-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .contacts-main {
+    &__page {
+      width: 15%;
+    }
+  }
+  .contacts-header {
+    width: 46%;
+  }
+  .contacts-telephone {
+    &__header {
+      width: 35%;
+    }
+
+    &__number {
+      width: 80%;
+      font-size: 54px;
+    }
+  }
+
+  .contacts-sales {
+    &_department-name {
+      width: 80%;
+    }
+
+    &__item {
+      width: 120%;
+      font-size: 22px;
+    }
+  }
+  .contacts-otherinfo {
+    width: 80%;
+
+    &__mail-name {
+      width: 46%;
+    }
+
+    &__mail-value {
+      width: 46%;
+      font-size: 22px;
+    }
+
+    &__address-name {
+      width: 85%;
+    }
+
+    &__address-value {
+      width: 75%;
+      font-size: 22px;
+    }
+
+    &__worktime-name {
+      width: 35%;
+    }
+
+    &__worktime-value {
+      width: 70%;
+      font-size: 22px;
+    }
+  }
+  .contacts-map {
+    width: 100%;
+  }
+  .contacts-callback {
+    &__name {
+      width: 80%;
+    }
+
+    &__box1 {
+      width: 100%;
+      justify-content: center;
+    }
+
+    &__label-box {
+      margin-right: 10px;
+    }
+
+    &__input-name {
+      width: 93%;
+    }
+
+    &__input-company {
+      width: 100%;
+    }
+
+    &__input-mail {
+      width: 93%;
+    }
+
+    &__input-telephone {
+      width: 100%;
+    }
+
+    &__textarea {
+      width: 100%;
+    }
+
+    .fix-margin {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media (max-width: 573px) {
+  .contacts {
+    width: 100%;
+  }
+  .contacts-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .contacts-main {
+    &__page {
+      width: 15%;
+    }
+  }
+  .contacts-header {
+    width: 46%;
+  }
+  .contacts-telephone {
+    &__header {
+      width: 35%;
+    }
+
+    &__number {
+      width: 90%;
+      font-size: 54px;
+    }
+  }
+  .contacts-sales {
+    &_department-name {
+      width: 80%;
+    }
+
+    &__item {
+      width: 120%;
+      font-size: 22px;
+    }
+  }
+  .contacts-otherinfo {
+    width: 80%;
+
+    &__mail-name {
+      width: 75%;
+    }
+
+    &__mail-value {
+      width: 46%;
+      font-size: 22px;
+    }
+
+    &__address-name {
+      width: 85%;
+    }
+
+    &__address-value {
+      width: 75%;
+      font-size: 22px;
+    }
+
+    &__worktime {
+      width: 100%;
+    }
+
+    &__worktime-name {
+      width: 65%;
+    }
+
+    &__worktime-value {
+      width: 70%;
+      font-size: 22px;
+    }
+  }
+  .contacts-map {
+    width: 100%;
+  }
+  .contacts-callback {
+    &__name {
+      width: 80%;
+    }
+
+    &__box1 {
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    &__label-box {
+      margin-right: 0px;
+    }
+
+    &__input-name {
+      width: 100%;
+      margin-right: 0px;
+    }
+
+    &__input-company {
+      width: 100%;
+    }
+
+    &__box2 {
+      flex-direction: column;
+    }
+
+    &__input-mail {
+      width: 100%;
+    }
+
+    &__input-telephone {
+      width: 100%;
+    }
+
+    &__textarea {
+      width: 100%;
+    }
+
+    .fix-margin {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media (max-width: 469px) {
+  .contacts {
+    width: 100%;
+  }
+  .contacts-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .contacts-main {
+    &__page {
+      width: 15%;
+    }
+  }
+  .contacts-header {
+    width: 46%;
+  }
+  .contacts-telephone {
+    &__header {
+      width: 35%;
+    }
+
+    &__number {
+      width: 100%;
+      font-size: 54px;
+    }
+  }
+
+  .contacts-sales {
+    &_department-name {
+      width: 80%;
+    }
+
+    &__item {
+      width: 120%;
+      font-size: 22px;
+    }
+  }
+  .contacts-otherinfo {
+    width: 80%;
+
+    &__mail-name {
+      width: 75%;
+    }
+
+    &__mail-value {
+      width: 46%;
+      font-size: 22px;
+    }
+
+    &__address-name {
+      width: 85%;
+    }
+
+    &__address-value {
+      width: 75%;
+      font-size: 22px;
+    }
+
+    &__worktime {
+      width: 100%;
+    }
+
+    &__worktime-name {
+      width: 65%;
+    }
+
+    &__worktime-value {
+      width: 70%;
+      font-size: 22px;
+    }
+  }
+  .contacts-map {
+    width: 100%;
+  }
+  .contacts-callback {
+    &__name {
+      width: 80%;
+    }
+
+    &__box1 {
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    &__label-box {
+      margin-right: 0px;
+    }
+
+    &__input-name {
+      width: 100%;
+      margin-right: 0px;
+    }
+
+    &__input-company {
+      width: 100%;
+    }
+
+    &__box2 {
+      flex-direction: column;
+    }
+
+    &__input-mail {
+      width: 100%;
+    }
+
+    &__input-telephone {
+      width: 100%;
+    }
+
+    &__textarea {
+      width: 100%;
+    }
+
+    .fix-margin {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .contacts {
+    width: 100%;
+  }
+  .contacts-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .contacts-main {
+    &__page {
+      width: 15%;
+    }
+
+    &__link {
+      font-size: 14px;
+    }
+  }
+  .contacts-header {
+    width: 46%;
+    font-size: 36px;
+  }
+  .contacts-telephone {
+    margin-top: 30px;
+    &__header {
+      width: 50%;
+      font-size: 18px;
+    }
+
+    &__number {
+      width: 90%;
+      font-size: 36px;
+    }
+  }
+  .contacts-info {
+    flex-direction: column;
+  }
+  .contacts-sales {
+    &_department-name {
+      width: 80%;
+      font-size: 18px;
+    }
+
+    &__item {
+      width: 120%;
+      font-size: 18px;
+    }
+  }
+  .contacts-otherinfo {
+    width: 80%;
+
+    &__mail-name {
+      width: 75%;
+      font-size: 18px;
+    }
+
+    &__mail-value {
+      width: 46%;
+      font-size: 18px;
+    }
+
+    &__address-name {
+      width: 85%;
+      font-size: 18px;
+    }
+
+    &__address-value {
+      width: 75%;
+      font-size: 18px;
+    }
+
+    &__worktime {
+      width: 100%;
+    }
+
+    &__worktime-name {
+      width: 65%;
+      font-size: 18px;
+    }
+
+    &__worktime-value {
+      width: 70%;
+      font-size: 18px;
+    }
+  }
+  .contacts-map {
+    width: 100%;
+  }
+  .contacts-callback {
+    &__name {
+      width: 80%;
+      font-size: 28px;
+    }
+
+    &__box1 {
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    &__label-box {
+      margin-right: 0px;
+    }
+
+    &__input-name {
+      width: 100%;
+      margin-right: 0px;
+    }
+
+    &__box2 {
+      flex-direction: column;
+    }
+    &__input-company,
+    &__input-mail,
+    &__input-telephone,
+    &__textarea {
+      width: 100%;
+    }
+
+    &__down-row {
+      flex-direction: column;
+    }
+
+    &__down-row-text {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    &__down-row-submit {
+      width: 100%;
+    }
+
+    .fix-margin {
+      margin-right: 0px;
+    }
+  }
+}

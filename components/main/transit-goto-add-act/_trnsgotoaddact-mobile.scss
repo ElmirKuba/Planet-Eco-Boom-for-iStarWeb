@@ -1,0 +1,105 @@
+@media (max-width: 992px) {
+  .transit-goto-add-act {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .goto-catalog {
+      width: 100%;
+      height: 159px;
+      background-color: #f2f2f2;
+      border-radius: 20px;
+
+      background-position: top 0px left -150px;
+
+      &__link {
+        width: 270px;
+        height: 80px;
+      }
+    }
+
+    .goto-request-form {
+      margin-top: 15px;
+      width: 100%;
+      height: 160px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .transit-goto-add-act {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .goto-catalog {
+      width: 100%;
+      height: 70px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+
+      background-image: url("/images/main/transit-goto-add-act/mobile/background-image.svg");
+      background-repeat: no-repeat;
+      background-position: center right;
+
+      &__link {
+        text-decoration: none;
+        display: block;
+        width: 111px;
+        height: 36px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+
+        letter-spacing: -0.03em;
+        text-transform: lowercase;
+
+        color: #212121;
+
+        margin-top: 17px;
+        margin-left: 15px;
+
+        background-image: url("/images/main/transit-goto-add-act/mobile/arrow-togo-right.svg");
+        background-repeat: no-repeat;
+        background-position: right 1px top -3px;
+      }
+    }
+
+    .goto-request-form {
+      width: 100%;
+      height: 70px;
+
+      background-color: #27ae60;
+      border-radius: 10px;
+
+      border: none;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+
+      letter-spacing: -0.03em;
+      text-transform: lowercase;
+
+      color: #ffffff;
+
+      padding-left: 14px;
+
+      background-image: url("/images/main/transit-goto-add-act/mobile/icon-envelope-written.svg");
+      background-repeat: no-repeat;
+      background-position: top 16px right 14px;
+
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    }
+  }
+}

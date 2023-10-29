@@ -1,0 +1,146 @@
+.other-news-and-promo {
+  height: 610px;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+  }
+
+  &__title {
+    margin-top: 7px;
+    width: 650px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+
+    letter-spacing: -0.03em;
+
+    color: #212121;
+  }
+
+  .manager-buttons {
+    margin-top: 2px;
+    width: 135px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+
+    button {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: none;
+      background-color: #d4efdf;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    }
+
+    .manager-buttons-left {
+      background-image: url("/images/main/sales-hits-box/manager-button__button-left.svg");
+    }
+
+    .manager-buttons-right {
+      background-image: url("/images/main/sales-hits-box/manager-button__button-right.svg");
+    }
+  }
+
+  @media (min-width: 767px) and (max-width: 992px) {
+    .manager-buttons {
+      display: none;
+
+      button {
+        display: none;
+      }
+
+      .manager-buttons-left {
+        display: none;
+      }
+
+      .manager-buttons-right {
+        display: none;
+      }
+    }
+  }
+
+  .other-news-and-promo-elements {
+    height: 520px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+      width: 330px;
+    }
+
+    .one-element {
+      &__preview {
+        border-radius: 20px;
+
+        width: 330px;
+        height: 378.82px;
+
+        padding: 15px;
+
+        background-size: cover;
+      }
+
+      &__date-event {
+        background-color: #fff;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+
+        letter-spacing: -0.06em;
+
+        color: #212121;
+
+        border-radius: 10px;
+        padding: 10px;
+
+        width: 108px;
+        height: 37.88px;
+      }
+
+      .one-element-description {
+        margin-top: 15px;
+
+        &__hashtag {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 120%;
+
+          letter-spacing: -0.06em;
+
+          color: #27ae60;
+        }
+
+        &__text {
+          margin-top: 10px;
+
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 120%;
+
+          letter-spacing: -0.06em;
+
+          color: #212121;
+        }
+      }
+    }
+  }
+}
+
+@import "./_othnewsprm-mobile";

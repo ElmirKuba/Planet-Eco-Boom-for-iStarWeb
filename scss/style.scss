@@ -1,0 +1,107 @@
+/* __________________________________________________ ИМПОРТЫ */
+@import url("./../css/normalize.css"); /* Добавлен сброс стандартных стилей normalize */
+@import url("./../fonts/GraphikLCG/stylesheet.css"); /* Подключен шрифт GraphikLCG */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  .container-fluid {
+    // elmir.web
+    @media (min-width: 1410px) {
+      width: 1410px;
+    }
+    @media (max-width: 1410px) {
+      width: 1200px;
+    }
+    @media (max-width: 1200px) {
+      width: 992px;
+    }
+    @media (max-width: 992px) {
+      width: 767px;
+    }
+    @media (max-width: 767px) {
+      width: 100%;
+
+      .component-main {
+        margin-top: 0.67px;
+        margin-bottom: 60px;
+      }
+
+      .component-products {
+        margin-top: 15.67px;
+        margin-bottom: 73px;
+      }
+
+      .component-purchase-page {
+        margin-top: 15.67px;
+        margin-bottom: 60px;
+      }
+    }
+
+    // component-main
+    @media (min-width: 767px) {
+      .component-main {
+        margin-top: 22px;
+        margin-bottom: 120px;
+      }
+
+      .component-products {
+        margin-top: 37px;
+        margin-bottom: 135px;
+      }
+
+      .component-purchase-page {
+        margin-top: 37px;
+        margin-bottom: 120px;
+      }
+    }
+    // /component-main
+
+    // elmir.web
+
+    flex: 1 1 auto;
+    margin: 0 auto;
+    font-family: "Graphik LCG";
+
+    background-color: #ffffff;
+
+    position: relative;
+
+    @import "./../components/header/_header"; /* header */
+    @import "./../components/main/_main"; /* main */
+    @import "./../components/footer/_footer"; /* footer */
+
+    @import "./../components/notfound/_notfound"; /* 404 */
+    @import "./../components/individual-design/_individual-design"; /* individual design */
+    @import "./../components/delivery-and-payment/_delivery-and-payment"; /* delivery and payment */
+    @import "./../components/contacts/_contacts"; /* contacts */
+
+    @import "./../components/form/form-individ-design/_form-individ-design"; /* ОБЩАЯ ФОРМА С КОМПОНЕНТА ИНД ДИЗ, СТР ТОВАРА И ГЛАВНОЙ */
+
+    @import "./../components/products/_products"; /* products */
+    @import "./../components/about/_about"; /* about */
+    @import "./../components/purchase-page/_purchase-page"; /* purchase-page */
+    @import "./../components/form/order_issue/_order_issue"; /* order-issue */
+    @import "./../components/form/ask_question/_ask_question"; /* ask-question */
+    @import "./../components/news-and-promo/_news-and-promo"; /* news-and-promo */
+    @import "./../components/news-and-promo/news-and-promo-selected/_news-and-promo-selected"; /* Скидки на бумажные стаканы с индивидуальным дизайном */
+    @import "./../components/products-promo/_products-promo"; /* products-promo */
+    @import "./../components/popups/_popup-city-select"; /* выбор города */
+  }
+}

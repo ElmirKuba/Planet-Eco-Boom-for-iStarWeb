@@ -1,0 +1,159 @@
+@media (min-width: 767px) and (max-width: 992px) {
+  .footer {
+    &__list1 {
+      .moduletable {
+        ul {
+          li {
+            a {
+              &:hover {
+                span {
+                }
+              }
+
+              img {
+              }
+
+              span {
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &__list1-item-link {
+    }
+
+    &__list1-item-img {
+    }
+
+    &__list2 {
+      margin-top: 0px;
+
+      .moduletable {
+        ul {
+          margin-top: 0;
+          li {
+            a {
+              &:hover {
+                span {
+                }
+              }
+
+              img {
+              }
+
+              span {
+              }
+            }
+
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+
+    &__list2-item-link {
+    }
+
+    &__list2-item-img {
+    }
+  }
+  .footer-box {
+    margin-right: 30px;
+  }
+  .footer-uprow {
+    flex-direction: column;
+
+    &__logo {
+      margin-top: 30px;
+      order: 1;
+
+      &:hover {
+      }
+    }
+
+    &__telephone {
+      margin-top: 0;
+      order: 3;
+
+      &:hover {
+      }
+    }
+
+    &__mail {
+      margin-top: 0;
+      order: 2;
+
+      &:hover {
+      }
+    }
+
+    &__logo2 {
+    }
+  }
+  .footer-downrow {
+    align-items: flex-end;
+    flex-direction: column-reverse;
+  }
+  .footer-box1 {
+    width: 100%;
+
+    &__info {
+      width: 100%;
+    }
+
+    &__info-text1 {
+    }
+
+    &__info-text2 {
+    }
+  }
+  .footer-box2 {
+    margin-left: 0;
+    &__list {
+    }
+
+    &__moreinfo {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      flex-direction: row;
+    }
+
+    &__politics {
+      &:hover {
+      }
+    }
+
+    &__text {
+      margin-top: 0px;
+
+      &:hover {
+      }
+    }
+  }
+  .moduletable {
+  }
+  .nav {
+  }
+  .menu {
+  }
+  .mod-list {
+  }
+  .item-148 {
+  }
+  .image-title {
+  }
+  .item-149 {
+  }
+  .item-150 {
+  }
+  .item-151 {
+  }
+  .item-152 {
+  }
+  .item-153 {
+  }
+  .item-154 {
+  }
+}

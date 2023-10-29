@@ -1,0 +1,59 @@
+@media (max-width: 458px) {
+  .notfound {
+    .notfound-main {
+      margin-left: 10px !important;
+    }
+    max-width: 400px !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 408px) {
+  .notfound {
+    max-width: 350px !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .notfound {
+    .notfound-main {
+      margin-left: 20px !important;
+    }
+    max-width: 320px !important;
+    margin: 0 auto !important;
+
+    .notfound-error {
+      font-size: 54px !important;
+    }
+    .notfound-message {
+      &__text {
+        font-size: 21px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 342px) {
+  .notfound {
+    .notfound-main {
+      margin-left: 25px !important;
+    }
+    max-width: 280px !important;
+    margin: 0 auto !important;
+
+    .notfound-error {
+      font-size: 44px !important;
+    }
+    .notfound-image {
+      .notfound-img {
+        width: 250px !important;
+        height: 250px !important;
+      }
+    }
+    .notfound-message {
+      &__text {
+        font-size: 21px !important;
+      }
+    }
+  }
+}

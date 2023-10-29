@@ -1,0 +1,113 @@
+.product-page-description {
+  @media (min-width: 767px) {
+    width: 74.46808510638298%;
+  }
+
+  @media (max-width: 767px) {
+    width: 90%;
+  }
+
+  &__first-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    letter-spacing: -0.03em;
+
+    color: #212121;
+
+    @media (max-width: 767px) {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+
+      letter-spacing: -0.03em;
+
+      color: #212121;
+    }
+  }
+
+  .production-technology {
+    margin-top: 30px;
+
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 150%;
+
+      letter-spacing: -0.03em;
+
+      color: #212121;
+
+      @media (max-width: 767px) {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+
+        letter-spacing: -0.03em;
+
+        color: #212121;
+      }
+    }
+
+    &__paragraph {
+      margin-top: 13px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 150%;
+
+      letter-spacing: -0.03em;
+
+      color: #212121;
+
+      @media (max-width: 767px) {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+
+        letter-spacing: -0.03em;
+
+        color: #212121;
+      }
+
+      &:nth-child(3) {
+        margin-top: 16px;
+      }
+    }
+
+    ul {
+      margin-left: 35px;
+
+      li {
+        margin-top: 13px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+
+        letter-spacing: -0.03em;
+
+        color: #212121;
+
+        @media (max-width: 767px) {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 150%;
+
+          letter-spacing: -0.03em;
+
+          color: #212121;
+        }
+
+        margin-bottom: -13px;
+      }
+    }
+  }
+}

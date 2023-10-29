@@ -1,0 +1,97 @@
+@media (max-width: 767px) {
+  .form-individ-gesign {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @media (min-width: 320px) and (max-width: 371px) {
+      min-height: 628px;
+    }
+
+    &__cups-image {
+      display: none;
+    }
+
+    &__left {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    &__title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+
+    &__description {
+      display: none;
+    }
+
+    &__right {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 17px;
+    }
+
+    &__action-before {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 120%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+
+    &__form-requist {
+      width: 100%;
+    }
+
+    &__input-name {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+
+    &__input-phone {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+
+    &__input-email {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+
+    &__text-personal-data {
+      margin-top: 15px;
+    }
+  }
+}

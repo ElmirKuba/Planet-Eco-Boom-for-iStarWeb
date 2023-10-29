@@ -1,0 +1,49 @@
+@media (max-width: 320px) {
+  .contacts-telephone {
+    margin-top: 30px;
+    &__header {
+      width: 55%;
+    }
+
+    &__number {
+      width: 90%;
+    }
+  }
+  .contacts-info {
+    margin-bottom: 30px;
+  }
+  .contacts-sales {
+    &__item {
+      margin-bottom: 20px;
+    }
+  }
+  .contacts-otherinfo {
+    &__mail {
+      margin-top: 12px;
+      margin-bottom: 20px;
+    }
+
+    &__address {
+      margin-bottom: 20px;
+    }
+
+    &__address-value {
+      width: 105%;
+    }
+
+    &__worktime-value {
+      width: 75%;
+    }
+  }
+
+  .contacts-callback {
+    margin-top: 53px;
+    &__name {
+      margin-bottom: 35px;
+    }
+
+    &__label-box {
+      margin-top: -10px;
+    }
+  }
+}

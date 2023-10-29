@@ -1,0 +1,84 @@
+@import "./_notfound-max992px";
+@import "./_notfound-max767px";
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+
+  .notfound-main {
+    margin-top: 23px;
+    margin-left: 240px;
+  }
+  .notfound-main__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+
+  .notfound-error {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    color: #212121;
+    margin-top: 15px;
+    margin-left: 240px;
+    margin-bottom: 60px;
+  }
+
+  .notfound-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    .notfound-img {
+      width: 317px;
+      height: 317px;
+      display: flex;
+    }
+  }
+
+  .notfound-message {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    &__text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 150%;
+      text-align: center;
+      letter-spacing: -0.03em;
+      color: #212121;
+    }
+  }
+
+  .notfound-button {
+    display: flex;
+    justify-content: center;
+
+    .notfound-btn {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 125%;
+      text-align: center;
+      letter-spacing: -0.06em;
+      color: #ffffff;
+      border: 1px solid #27ae60;
+      background: #27ae60;
+      border-radius: 10px;
+      text-decoration: none;
+      width: 450px;
+      height: 70px;
+      padding-top: 20px;
+      margin-bottom: 120px;
+    }
+  }
+}

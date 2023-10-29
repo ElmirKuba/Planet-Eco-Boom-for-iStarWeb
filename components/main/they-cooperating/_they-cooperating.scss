@@ -1,0 +1,91 @@
+.they-cooperating {
+  height: 324px;
+
+  &__top {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+
+    .cooperating__title {
+      width: 726px;
+      height: 64px;
+      margin-top: 0px;
+
+      font-style: normal;
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+
+    .manager-buttons {
+      width: 135px;
+      height: 64px;
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        background-color: #d4efdf;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        &:hover {
+          opacity: 0.5;
+          cursor: pointer;
+        }
+      }
+
+      &__left {
+        background-image: url("/images/main/they-cooperating/manager-button__button-left.svg");
+      }
+
+      &__right {
+        background-image: url("/images/main/they-cooperating/manager-button__button-right.svg");
+      }
+    }
+
+    @media (min-width: 767px) and (max-width: 992px) {
+      .manager-buttons {
+        display: none;
+
+        .manager-buttons-left {
+          display: none;
+        }
+
+        .manager-buttons-right {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__body {
+    margin-top: 60px;
+    height: 200px;
+  }
+
+  .cooperatings {
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+      width: 330px;
+      height: 200px;
+      border-radius: 20px;
+      border: 1px solid #e0e0e0;
+      background-color: inherit;
+
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+}
+
+@import "./_they-cooperating-mobile";

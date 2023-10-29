@@ -1,0 +1,215 @@
+@media (max-width: 776px) {
+  .order-issue {
+    width: 90%;
+    height: fit-content;
+    &__box {
+      width: 100%;
+    }
+
+    &__header {
+      justify-content: space-between;
+    }
+
+    &__header-button {
+      margin-left: 0px;
+    }
+
+    &__selected-product {
+      width: 100%;
+      height: fit-content;
+    }
+
+    &__selected {
+      width: 100%;
+    }
+
+    &__selected-value {
+      width: 100%;
+      font-size: 20px;
+    }
+
+    &__form-box1 {
+      flex-direction: column;
+    }
+
+    &__form-name {
+      width: 100%;
+      margin-right: 30px;
+    }
+
+    &__input-name {
+      width: 100%;
+    }
+
+    &__form-tel {
+      width: 100%;
+    }
+
+    &__input-tel {
+      width: 100%;
+    }
+
+    &__input-mail {
+      width: 100%;
+    }
+
+    &__textarea {
+      width: 100%;
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__down-text {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .order-issue {
+    width: 90%;
+    height: fit-content;
+    &__box {
+      width: 100%;
+    }
+
+    &__header {
+      justify-content: space-between;
+    }
+
+    &__header-value {
+      font-size: 30px;
+    }
+
+    &__header-button {
+      margin-left: 0px;
+    }
+
+    &__form-box1 {
+      flex-direction: column;
+    }
+
+    &__form-name {
+      width: 100%;
+      margin-right: 30px;
+    }
+
+    &__input-name {
+      width: 100%;
+    }
+
+    &__form-tel {
+      width: 100%;
+    }
+
+    &__input-tel {
+      width: 100%;
+    }
+
+    &__input-mail {
+      width: 100%;
+    }
+
+    &__textarea {
+      width: 100%;
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__down-text {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .order-issue {
+    width: 90%;
+    height: fit-content;
+    &__box {
+      width: 100%;
+    }
+
+    &__header {
+      justify-content: space-between;
+    }
+
+    &__header-value {
+      font-size: 22px;
+      padding-top: 7px;
+    }
+
+    &__header-button {
+      margin-left: 0px;
+    }
+
+    &__form-box1 {
+      flex-direction: column;
+    }
+
+    &__form-name {
+      width: 100%;
+      margin-right: 30px;
+    }
+
+    &__input-name {
+      width: 100%;
+    }
+
+    &__name-label {
+      font-size: 20px;
+    }
+
+    &__form-tel {
+      width: 100%;
+    }
+
+    &__input-tel {
+      width: 100%;
+    }
+
+    &__tel-label {
+      font-size: 20px;
+    }
+
+    &__input-mail {
+      width: 100%;
+    }
+
+    &__mail-label {
+      font-size: 20px;
+      margin-left: -8px;
+    }
+
+    &__textarea {
+      width: 100%;
+    }
+
+    &__textarea-label {
+      font-size: 20px;
+      margin-left: -8px;
+    }
+
+    .order-issue__input-mail:focus ~ .order-issue__mail-label,
+    .order-issue__input-mail:not(:placeholder-shown) ~ .order-issue__mail-label,
+    .order-issue__textarea:focus ~ .order-issue__textarea-label,
+    .order-issue__textarea:not(:placeholder-shown)
+      ~ .order-issue__textarea-label {
+      top: -60px;
+      left: 28px;
+      font-size: 21px;
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__down-text {
+      width: 100%;
+    }
+  }
+}

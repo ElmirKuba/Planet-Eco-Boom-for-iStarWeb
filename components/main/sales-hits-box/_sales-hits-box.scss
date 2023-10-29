@@ -1,0 +1,213 @@
+.sales-hits-box {
+  padding-left: 1px;
+  height: 577px;
+
+  // background-color: red;
+
+  &__top {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title-link {
+    width: 636px;
+    height: 64px;
+
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 100%;
+
+      letter-spacing: -0.06em;
+
+      color: #212121;
+    }
+
+    &__link {
+      display: block;
+      width: 238px;
+      height: 22px;
+      margin-top: 22px;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 90%;
+
+      letter-spacing: -0.06em;
+      text-decoration-line: underline;
+
+      color: #27ae60;
+
+      background-image: url("/images/main/sales-hits-box/title-link__link-arrow-right.svg");
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+  }
+
+  .manager-buttons {
+    margin-top: 2px;
+    width: 135px;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: none;
+      background-color: #d4efdf;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    }
+
+    .manager-buttons-left {
+      background-image: url("/images/main/sales-hits-box/manager-button__button-left.svg");
+    }
+
+    .manager-buttons-right {
+      background-image: url("/images/main/sales-hits-box/manager-button__button-right.svg");
+    }
+  }
+
+  @media (min-width: 767px) and (max-width: 992px) {
+    .manager-buttons {
+      display: none;
+
+      .manager-buttons-left {
+        display: none;
+      }
+
+      .manager-buttons-right {
+        display: none;
+      }
+    }
+  }
+
+  .hits-box-products {
+    margin-top: 60px;
+    height: 453px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+      width: 330px;
+      height: 453px;
+
+      .product-item-preview {
+        width: 330px;
+        height: 380px;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__discount {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 100%;
+
+          letter-spacing: -0.06em;
+          text-transform: lowercase;
+
+          color: #ffffff;
+
+          padding: 10px;
+          background-color: #27ae60;
+          border-radius: 10px;
+          width: 120px; // Вообще должно быть 111px но с запасом на скидку 99%:D, а так pixel perfect проходит только на 111px
+          text-align: center;
+        }
+
+        &__new-price {
+          background: #ffffff;
+          border-radius: 10px;
+          width: 140px;
+          height: 71px;
+          padding: 10px;
+
+          span {
+            display: block;
+          }
+
+          &-old-price {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+
+            letter-spacing: -0.06em;
+            text-decoration-line: line-through;
+            text-transform: lowercase;
+
+            color: #bdbdbd;
+            margin-bottom: 5px;
+          }
+
+          &-current-price {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 100%;
+
+            letter-spacing: -0.06em;
+            text-transform: lowercase;
+
+            color: #27ae60;
+          }
+        }
+      }
+
+      .product-preview {
+        &__one-left {
+          background-size: cover;
+        }
+
+        &__two-left {
+          background-size: cover;
+        }
+
+        &__three-right {
+          background-size: cover;
+        }
+
+        &__four-right {
+          background-size: cover;
+        }
+      }
+
+      .product-item-title {
+        margin-top: 15px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+
+        letter-spacing: -0.06em;
+        text-transform: lowercase;
+
+        color: #212121;
+      }
+    }
+  }
+}
+
+@import "./_slshitsbox-mobile";
