@@ -631,7 +631,7 @@ body {
     padding-bottom: 15px;
     padding-left: 43px;
     padding-right: 15px;
-    background-image: url("./images/header/Desktop/icon-loupe-search-input.svg");
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/header/Desktop/icon-loupe-search-input.svg");
     background-repeat: no-repeat;
     background-position: top 15px left 15px;
     font-style: normal;
@@ -821,7 +821,7 @@ body {
     padding-bottom: 15px;
     padding-left: 43px;
     padding-right: 15px;
-    background-image: url("./images/header/Desktop/icon-loupe-search-input.svg");
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/header/Desktop/icon-loupe-search-input.svg");
     background-repeat: no-repeat;
     background-position: top 15px left 15px;
     font-style: normal;
@@ -1011,7 +1011,7 @@ body {
     padding-bottom: 15px;
     padding-left: 43px;
     padding-right: 15px;
-    background-image: url("./images/header/Desktop/icon-loupe-search-input.svg");
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/header/Desktop/icon-loupe-search-input.svg");
     background-repeat: no-repeat;
     background-position: top 15px left 15px;
     font-style: normal;
@@ -6298,7 +6298,7 @@ body {
   .wrapper .container-fluid .about-image {
     width: 273px !important;
     height: 160px !important;
-    background-image: url("./images/about/tree_image_mobile.png") !important;
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/about/tree_image_mobile.png") !important;
   }
   .wrapper .container-fluid .about-text {
     width: 100%;
