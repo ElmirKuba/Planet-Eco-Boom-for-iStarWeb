@@ -1263,7 +1263,7 @@ body {
   position: absolute;
   top: 47.7402494458%;
   left: 2.1276595745%;
-  background-image: url("/images/main/first-slider/Desktop/icons/arrow_left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/first-slider/Desktop/icons/arrow_left.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -1283,7 +1283,7 @@ body {
   position: absolute;
   top: 47.7402494458%;
   right: 2.1276595745%;
-  background-image: url("/images/main/first-slider/Desktop/icons/arrow_right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/first-slider/Desktop/icons/arrow_right.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -1705,7 +1705,7 @@ body {
   height: 159px;
   background-color: #f2f2f2;
   border-radius: 20px;
-  background-image: url("/images/main/transit-goto-add-act/background-image.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/transit-goto-add-act/background-image.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -1738,7 +1738,7 @@ body {
   color: #212121;
   margin-top: 44px;
   margin-left: 60px;
-  background-image: url("/images/main/transit-goto-add-act/arrow-togo-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/transit-goto-add-act/arrow-togo-right.svg");
   background-repeat: no-repeat;
   background-position: right 1px top -3px;
 }
@@ -1757,7 +1757,7 @@ body {
   text-align: left;
   padding-left: 30px;
   color: #ffffff;
-  background-image: url("/images/main/transit-goto-add-act/icon-envelope-written.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/transit-goto-add-act/icon-envelope-written.svg");
   background-repeat: no-repeat;
   background-position: top 40px right 30px;
 }
@@ -1805,7 +1805,7 @@ body {
     height: 70px;
     background-color: #f2f2f2;
     border-radius: 10px;
-    background-image: url("/images/main/transit-goto-add-act/mobile/background-image.svg");
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/transit-goto-add-act/mobile/background-image.svg");
     background-repeat: no-repeat;
     background-position: center right;
   }
@@ -1823,7 +1823,7 @@ body {
     color: #212121;
     margin-top: 17px;
     margin-left: 15px;
-    background-image: url("/images/main/transit-goto-add-act/mobile/arrow-togo-right.svg");
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/transit-goto-add-act/mobile/arrow-togo-right.svg");
     background-repeat: no-repeat;
     background-position: right 1px top -3px;
   }
@@ -1841,7 +1841,7 @@ body {
     text-transform: lowercase;
     color: #ffffff;
     padding-left: 14px;
-    background-image: url("/images/main/transit-goto-add-act/mobile/icon-envelope-written.svg");
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/transit-goto-add-act/mobile/icon-envelope-written.svg");
     background-repeat: no-repeat;
     background-position: top 16px right 14px;
   }
@@ -1885,7 +1885,7 @@ body {
   letter-spacing: -0.06em;
   text-decoration-line: underline;
   color: #27ae60;
-  background-image: url("/images/main/sales-hits-box/title-link__link-arrow-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/sales-hits-box/title-link__link-arrow-right.svg");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -1909,10 +1909,10 @@ body {
   cursor: pointer;
 }
 .wrapper .container-fluid main.main .sales-hits-box .manager-buttons .manager-buttons-left {
-  background-image: url("/images/main/sales-hits-box/manager-button__button-left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/sales-hits-box/manager-button__button-left.svg");
 }
 .wrapper .container-fluid main.main .sales-hits-box .manager-buttons .manager-buttons-right {
-  background-image: url("/images/main/sales-hits-box/manager-button__button-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/sales-hits-box/manager-button__button-right.svg");
 }
 @media (min-width: 767px) and (max-width: 992px) {
   .wrapper .container-fluid main.main .sales-hits-box .manager-buttons {
@@ -2049,7 +2049,7 @@ body {
     letter-spacing: -0.06em;
     text-decoration-line: underline;
     color: #27ae60;
-    background-image: url("/images/main/sales-hits-box/title-link__link-arrow-right.svg");
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/sales-hits-box/title-link__link-arrow-right.svg");
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -2171,7 +2171,7 @@ body {
   letter-spacing: -0.06em;
   text-decoration-line: underline;
   color: #27ae60;
-  background-image: url("/images/main/products-and-categories/title-link__link-arrow-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/products-and-categories/title-link__link-arrow-right.svg");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -2195,10 +2195,10 @@ body {
   cursor: pointer;
 }
 .wrapper .container-fluid main.main .products-and-categories .manager-buttons .manager-buttons-left {
-  background-image: url("/images/main/products-and-categories/manager-button__button-left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/products-and-categories/manager-button__button-left.svg");
 }
 .wrapper .container-fluid main.main .products-and-categories .manager-buttons .manager-buttons-right {
-  background-image: url("/images/main/products-and-categories/manager-button__button-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/products-and-categories/manager-button__button-right.svg");
 }
 @media (min-width: 767px) and (max-width: 992px) {
   .wrapper .container-fluid main.main .products-and-categories .manager-buttons {
@@ -2281,7 +2281,7 @@ body {
     letter-spacing: -0.06em;
     text-decoration-line: underline;
     color: #27ae60;
-    background-image: url("/images/main/products-and-categories/title-link__link-arrow-right.svg");
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/products-and-categories/title-link__link-arrow-right.svg");
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -2369,10 +2369,10 @@ body {
   cursor: pointer;
 }
 .wrapper .container-fluid main.main .they-cooperating__top .manager-buttons__left {
-  background-image: url("/images/main/they-cooperating/manager-button__button-left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/they-cooperating/manager-button__button-left.svg");
 }
 .wrapper .container-fluid main.main .they-cooperating__top .manager-buttons__right {
-  background-image: url("/images/main/they-cooperating/manager-button__button-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/they-cooperating/manager-button__button-right.svg");
 }
 @media (min-width: 767px) and (max-width: 992px) {
   .wrapper .container-fluid main.main .they-cooperating__top .manager-buttons {
@@ -2483,7 +2483,7 @@ body {
   letter-spacing: -0.06em;
   text-decoration-line: underline;
   color: #27ae60;
-  background-image: url("/images/main/news-and-promo/title-link__link-arrow-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/news-and-promo/title-link__link-arrow-right.svg");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -2512,7 +2512,7 @@ body {
   background-color: #d4efdf;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("/images/main/sales-hits-box/manager-button__button-left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/sales-hits-box/manager-button__button-left.svg");
 }
 .wrapper .container-fluid main.main .news-and-promo__button-left:hover {
   opacity: 0.5;
@@ -2526,7 +2526,7 @@ body {
   background-color: #d4efdf;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("/images/main/sales-hits-box/manager-button__button-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/sales-hits-box/manager-button__button-right.svg");
 }
 .wrapper .container-fluid main.main .news-and-promo__button-right:hover {
   opacity: 0.5;
@@ -2617,7 +2617,7 @@ body {
     letter-spacing: -0.06em;
     text-decoration-line: underline;
     color: #27ae60;
-    background-image: url("/images/main/news-and-promo/title-link__link-arrow-right.svg");
+    background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/news-and-promo/title-link__link-arrow-right.svg");
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -3425,7 +3425,7 @@ body {
   position: absolute;
   top: 48.25%;
   left: 3.3%;
-  background-image: url("/images/individual-design/example-works-slider/Desktop/icons/arrow_left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/individual-design/example-works-slider/Desktop/icons/arrow_left.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -3445,7 +3445,7 @@ body {
   position: absolute;
   top: 48.25%;
   right: 3.3%;
-  background-image: url("/images/individual-design/example-works-slider/Desktop/icons/arrow_right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/individual-design/example-works-slider/Desktop/icons/arrow_right.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -4773,7 +4773,7 @@ body {
   right: 600px;
   width: 902px;
   height: 352px;
-  background-image: url("/images/form/cups.png");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/form/cups.png");
   background-size: cover;
 }
 @media (min-width: 1201px) and (max-width: 1410px) {
@@ -5544,7 +5544,7 @@ body {
   height: 380px;
   border-radius: 20px;
   margin: 60px auto 0 auto;
-  background-image: url("/images/about/tree_image.png");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/about/tree_image.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
@@ -6501,7 +6501,7 @@ body {
   position: absolute;
   top: 48.6111111111%;
   left: 4.347826087%;
-  background-image: url("/images/purchase-page/making-order/arrow_left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/purchase-page/making-order/arrow_left.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -6522,7 +6522,7 @@ body {
   position: absolute;
   top: 48.6111111111%;
   right: 4.347826087%;
-  background-image: url("/images/purchase-page/making-order/arrow_right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/purchase-page/making-order/arrow_right.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -7047,10 +7047,10 @@ body {
   cursor: pointer;
 }
 .wrapper .container-fluid .purchase-page .product-also-order .manager-buttons .manager-buttons-left {
-  background-image: url("/images/purchase-page/product-also-order/manager-button__button-left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/purchase-page/product-also-order/manager-button__button-left.svg");
 }
 .wrapper .container-fluid .purchase-page .product-also-order .manager-buttons .manager-buttons-right {
-  background-image: url("/images/purchase-page/product-also-order/manager-button__button-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/purchase-page/product-also-order/manager-button__button-right.svg");
 }
 @media (min-width: 767px) and (max-width: 992px) {
   .wrapper .container-fluid .purchase-page .product-also-order .manager-buttons {
@@ -7397,10 +7397,10 @@ body {
   cursor: pointer;
 }
 .wrapper .container-fluid .purchase-page .addit-recommends .manager-buttons .manager-buttons-left {
-  background-image: url("/images/purchase-page/addit-recommends/manager-button__button-left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/purchase-page/addit-recommends/manager-button__button-left.svg");
 }
 .wrapper .container-fluid .purchase-page .addit-recommends .manager-buttons .manager-buttons-right {
-  background-image: url("/images/purchase-page/addit-recommends/manager-button__button-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/purchase-page/addit-recommends/manager-button__button-right.svg");
 }
 @media (min-width: 767px) and (max-width: 992px) {
   .wrapper .container-fluid .purchase-page .addit-recommends .manager-buttons {
@@ -7627,7 +7627,7 @@ body {
   color: #212121;
 }
 .wrapper .container-fluid .popup-wrapper .order-issue__header-button {
-  background-image: url("/images/form/order-issue/close-button.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/form/order-issue/close-button.svg");
   width: 40px;
   height: 40px;
   background-repeat: no-repeat;
@@ -8086,7 +8086,7 @@ body {
   color: #212121;
 }
 .wrapper .container-fluid .popup-wrapper .ask-question__header-button {
-  background-image: url("/images/form/order-issue/close-button.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/form/order-issue/close-button.svg");
   width: 40px;
   height: 40px;
   background-repeat: no-repeat;
@@ -8706,7 +8706,7 @@ body {
   margin-top: 30px;
   border-radius: 20px;
   padding: 20px;
-  background-image: url("/images/news-and-promo/news-and-promo-selected/current-news-promo__cover-image.png");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/news-and-promo/news-and-promo-selected/current-news-promo__cover-image.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
@@ -8968,10 +8968,10 @@ body {
   cursor: pointer;
 }
 .wrapper .container-fluid .news-and-promo-selected .other-news-and-promo .manager-buttons .manager-buttons-left {
-  background-image: url("/images/main/sales-hits-box/manager-button__button-left.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/sales-hits-box/manager-button__button-left.svg");
 }
 .wrapper .container-fluid .news-and-promo-selected .other-news-and-promo .manager-buttons .manager-buttons-right {
-  background-image: url("/images/main/sales-hits-box/manager-button__button-right.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/main/sales-hits-box/manager-button__button-right.svg");
 }
 @media (min-width: 767px) and (max-width: 992px) {
   .wrapper .container-fluid .news-and-promo-selected .other-news-and-promo .manager-buttons {
@@ -9471,7 +9471,7 @@ body {
   border-radius: 50%;
   border: none;
   outline: none;
-  background-image: url("/images/popups/city-select/icon-close.svg");
+  background-image: url("/Planet-Eco-Boom-for-iStarWeb/images/popups/city-select/icon-close.svg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
